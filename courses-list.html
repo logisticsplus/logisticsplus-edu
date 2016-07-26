@@ -1,469 +1,301 @@
 <!doctype html>
 <html class="no-js" lang="">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>EduRex - Education HTML5 Template</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>Courses</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <!-- Place favicon.ico in the root directory -->
-    <link rel="icon" type="image/png" href="favicon.png">
-    
-    <link rel="stylesheet" href="css/vendor/ionicons.min.css">
-    <link rel="stylesheet" href="css/vendor/animate.min.css">
-    <link rel="stylesheet" href="css/vendor/mislider.css">
-    <link rel="stylesheet" href="css/vendor/mislider-skin-cameo.css">
-    <link rel="stylesheet" href="css/vendor/owl.transitions.css">
-    <link rel="stylesheet" href="css/vendor/owl.carousel.css">
-    <link rel="stylesheet" href="css/vendor/font-awesome.min.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/main.css">
-    <script src="js/vendor/modernizr.js"></script>
-  </head>
-  <body>
-    <!--[if lt IE 8]>
-      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
+		<link rel="apple-touch-icon" href="apple-touch-icon.png">
+		<!-- Place favicon.ico in the root directory -->
+		<link rel="icon" type="image/png" href="favicon.png">
+		
+		<link rel="stylesheet" href="css/vendor/ionicons.min.css">
+		<link rel="stylesheet" href="css/vendor/animate.min.css">
+		<link rel="stylesheet" href="css/vendor/mislider.css">
+		<link rel="stylesheet" href="css/vendor/mislider-skin-cameo.css">
+		<link rel="stylesheet" href="css/vendor/owl.transitions.css">
+		<link rel="stylesheet" href="css/vendor/owl.carousel.css">
+		<link rel="stylesheet" href="css/vendor/font-awesome.min.css">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/main.css">
+		<script src="js/vendor/modernizr.js"></script>
+	</head>
+	<body>
 
-  <div class="loading">
-    <div class="wrapper">
-      <div class="cssload-loader"></div>
-    </div>
-  </div>
+	<div class="loading">
+		<div class="wrapper">
+			<div class="cssload-loader"></div>
+		</div>
+	</div>
 
-  <header>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="block">
-            <p><a href="#">My Account</a></p>
-            <!-- Extra small button group -->
-            <div class="btn-group">
-              <button class="btn btn-default btn-xs dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                ENGLISH <span class="caret"></span>
-              </button>
-              <ul class="dropdown-menu">
-                <li><a href="#">English</a></li>
-                <li><a href="#">France</a></li>
-                <li><a href="#">Germany</a></li>
-                <li><a href="#">Japanese</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="block align-right">
-            <a href="#">Help center</a>
-            <a href="#">online support</a>
-            <!-- Register Section -->
-            <a href="#" data-toggle="modal" data-target="#registerModal" data-whatever="@mdo">register</a>
-            <div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="registerlLabel">
-              <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="registerlLabel">Register Now</h4>
-                  </div>
-                  <div class="modal-body">
-                    <form class="rex-forms">
-                      <div class="form-group">
-                        <input type="text" class="form-control" id="fast-name" placeholder="Fast Name">
-                      </div>
-                      <div class="form-group">
-                        <input type="text" class="form-control" id="last-name" placeholder="Last Name">
-                      </div>
-                      <div class="form-group">
-                        <input type="email" class="form-control" id="email-name" placeholder="E-mail">
-                      </div>
-                      <div class="form-group">
-                        <input type="password" class="form-control" id="pass-word" placeholder="Password">
-                      </div>
-                      <div class="form-group">
-                        <input type="password" class="form-control" id="re-pass-word" placeholder="Re-Password">
-                      </div>
-                    </form>
-                  </div>
-                  <div class="modal-footer">
-                    <button class="rex-bottom-medium rex-btn-icon">
-                        <span class="rex-btn-text">registration</span>
-                        <span class="rex-btn-text-icon"><i class="fa fa-arrow-circle-o-right"></i></span>
-                    </button>                    
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- <a href="#"><i class="fa fa-lock"></i>LOG in </a> -->
-            <a href="#" data-toggle="modal" data-target="#loginModal" data-whatever="@mdo"><i class="fa fa-lock"></i>LOG in </a>
-            <!-- Login Option -->
-            <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginLabel">
-              <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="loginLabel">Login</h4>
-                  </div>
-                  <div class="modal-body">
-                    <form class="rex-forms">
-                      <div class="form-group">
-                        <input type="text" class="form-control" id="recipient-name" placeholder="Name">
-                      </div>
-                      <div class="form-group">
-                        <input type="password" class="form-control" id="pass_word" placeholder="Password">
-                      </div>
-                    </form>
-                  </div>
-                  <div class="modal-footer">
-                    <button class="rex-bottom-medium rex-btn-icon">
-                        <span class="rex-btn-text">Login</span>
-                        <span class="rex-btn-text-icon"><i class="fa fa-arrow-circle-o-right"></i></span>
-                    </button>  
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-<main class="rex-main-content">
-  <!-- Add your site or application content here -->
-
-	
-
-	<!-- Navigation Html -->
-	<div class="main-menu">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="logo">
-                    <a href="index.html">
-                        <img class="img-responsive" src="img/logo.png" alt="">
-                    </a>
-                </div>
-                <div class="menu-container">
-                    <div class="menu">
-                        <ul class="main-ul">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a class="active" href="javascript:void(0)">+ Courses</a>
-                                <ul>
-                                    <li><h6>Courses pages</h6>
-                                        <ul>
-                                            <li><a href="courses.html">Courses</a></li>
-                                            <li><a class="active" href="courses-list.html">Courses list</a></li>
-                                            <li><a href="courses-grid.html">Courses grid</a></li>
-                                            <!-- <li><a href="courses-slide.html">Courses grid Slider</a></li> -->
-                                            <li><a href="courses-list-fullwidth.html">Courses list Fullwidth</a></li>
-                                            <li><a href="courses-grid-fullwidth.html">Courses grid Fullwidth</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><h6>Single course</h6>
-                                        <ul>
-                                            <li><a href="single-courses.html">Single Course Version 1</a></li>
-                                            <li><a href="single-course-left.html">Single Course Version 2</a></li>
-                                            <li><a href="single-course-right.html">Single Course Version 3</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><h6>Availability</h6>
-                                        <ul>
-                                            <li><a href="courses.html">Current</a></li>
-                                            <li><a href="courses.html">Starting Soon</a></li>
-                                            <li><a href="courses.html">upcoming</a></li>
-                                            <li><a href="courses.html">self-paced</a></li>
-                                            <li><a href="courses.html">Archived</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li><a href="javascript:void(0)">+ Blog</a>
-                                <ul>
-                                    <li><a href="blog-left.html">Blog Right</a></li>
-                                    <li><a href="blog-right.html">Blog Left</a></li>
-                                    <li><a href="blog-no-sidebar.html">Blog No Sidebar</a></li>
-                                    <li><a href="single-blog.html">Single Blog</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="javascript:void(0)">+ Instructors</a>
-                                <ul>
-                                    <li><a href="instructors.html">Instructors</a></li>
-                                    <li><a href="single-instructors.html">Single Instructor</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="about_page.html">About</a>
-                            <li><a href="contact.html">Contact</a>
-                        </ul>
-                    </div>
-                    <div class="menu-search" >
-                        
-                        <button id="test" class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
-                        <div id="myNav" class="overlay">
-                            <a href="javascript:void(0)" class="closebtn" id="closeNav">×</a>
-                            <div class="search-input">
-                                <input type="text" class="form-control" placeholder="What do you want to learn today?">
-                                <button class="rex-bottom-medium rex-btn-icon search-btn" type="submit">
-                                    <span class="rex-btn-text"><i class="fa fa-search"></i></span>
-                                </button>  
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-    
-
-
-	<!-- Breadcum section -->
-
-	<section class="breadcum">
+ <header>
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12">
-					<h4>COURSES LIST</h4>
-					<div class="pages">
-						<a href="index.html">Home</a> 
-						<span>&#47;</span>
-						<a href="about_page.html">Courses List</a>
+				<div class="col-md-6">
+					<div class="block">
+						<p><a href="#">My Account</a></p>
+						<!-- Extra small button group -->
+						<div class="btn-group">
+							<button class="btn btn-default btn-xs dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								ENGLISH <span class="caret"></span>
+							</button>
+							<ul class="dropdown-menu">
+								<li><a href="#">Shqip</a></li>
+								<li><a href="#">English</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="block align-right">
+						<a href="#" data-toggle="modal" data-target="#registerModal" data-whatever="@mdo">register</a>
+						<div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="registerlLabel">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+										<h4 class="modal-title" id="registerlLabel">Register Now</h4>
+									</div>
+									<div class="modal-body">
+										<form class="rex-forms">
+											<div class="form-group">
+												<input type="text" class="form-control" id="fast-name" placeholder="Fast Name">
+											</div>
+											<div class="form-group">
+												<input type="text" class="form-control" id="last-name" placeholder="Last Name">
+											</div>
+											<div class="form-group">
+												<input type="email" class="form-control" id="email-name" placeholder="E-mail">
+											</div>
+											<div class="form-group">
+												<input type="password" class="form-control" id="pass-word" placeholder="Password">
+											</div>
+											<div class="form-group">
+												<input type="password" class="form-control" id="re-pass-word" placeholder="Re-Password">
+											</div>
+										</form>
+									</div>
+									<div class="modal-footer">
+										<button class="rex-bottom-medium rex-btn-icon">
+												<span class="rex-btn-text">registration</span>
+												<span class="rex-btn-text-icon"><i class="fa fa-arrow-circle-o-right"></i></span>
+										</button>                    
+									</div>
+								</div>
+							</div>
+						</div>
+						<a href="#" data-toggle="modal" data-target="#loginModal" data-whatever="@mdo"><i class="fa fa-lock"></i>LOG in </a> 
+						<!-- Login Option -->
+						<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginLabel">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+										<h4 class="modal-title" id="loginLabel">Login</h4>
+									</div>
+									<div class="modal-body">
+										<form class="rex-forms">
+											<div class="form-group">
+												<input type="text" class="form-control" id="recipient-name" placeholder="Name">
+											</div>
+											<div class="form-group">
+												<input type="password" class="form-control" id="pass_word" placeholder="Password">
+											</div>
+										</form>
+									</div>
+									<div class="modal-footer">
+										<button class="rex-bottom-medium rex-btn-icon">
+												<span class="rex-btn-text">Login</span>
+												<span class="rex-btn-text-icon"><i class="fa fa-arrow-circle-o-right"></i></span>
+										</button>  
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</section>
+	</header>
+<main class="rex-main-content">
 
-	
+	<!-- Navigation Html
+=================== -->
+<div class="main-menu">
+		<div class="container">
+				<div class="row">
+						<div class="col-md-12">
+								<div class="logo">
+										<a href="index.html">
+												<img class="img-responsive" src="img/logisticsplus_logo.png" alt="">
+										</a>
+								</div>
+								<div class="menu-container">
+										<div class="menu">
+												<ul class="main-ul">
+														<li><a href="index.html">Home</a></li>
+														<li><a class="active" href="courses-list.html">Courses</a></li>
+														<li><a href="instructors.html">Instructors</a></li>
+														<li><a href="about_page.html">About</a>
+														<li><a href="#contact">Contact</a>
+												</ul>
+										</div>
+								</div>
+						</div>
+				</div>
+		</div>
+</div>
+
+<!-- Slider Html 
+====================-->
+	<div class="silder">
+        <div class="rex-slider">
+
+        	<!-- slider 1 -->
+            <div class="slide-list" data-lazy-background="img/slider-img1.jpg">
+                <h1 data-pos="['0', '0']" data-duration="1000" data-effect="fadein">
+                    <span class="highlight-text">LEARN FROM THE BEST. </span>
+                    ANYTIME. ANYWHERE.
+                </h1>
+                <div class="slider-text" data-pos="['0', '0']" data-duration="700" data-effect="fadein">
+                    <p>Advance and build on existing skills with our <br>
+                    Professional Development programs</p>
+                </div>
+                <div class="slider-btn" data-pos="['0', '0']" data-duration="700" data-effect="fadein">
+					<a href="#" target="_self" class="rex-bottom-medium rex-btn-icon">
+					    <span class="rex-btn-text">learn more</span>
+					    <span class="rex-btn-text-icon"><i class="fa fa-arrow-circle-o-right"></i></span>
+					</a>
+                </div>
+            </div>    
+
+            <!-- slider 2 -->
+            <div class="slide-list slide-center" data-lazy-background="img/slider-img2.jpg">
+                <h1 data-pos="['0', '0']" data-duration="1000" data-effect="fadein">
+					<span class="highlight-text">getting started </span><br>
+					improve your skills
+                </h1>                
+                <div class="slider-btn" data-pos="['0', '0']" data-duration="700" data-effect="fadein">
+					<a href="#" target="_self" class="rex-bottom-medium rex-btn-icon">
+					    <span class="rex-btn-text">Check out</span>
+					    <span class="rex-btn-text-icon"><i class="fa fa-arrow-circle-o-right"></i></span>
+					</a>
+                </div>
+            </div>    
+
+            <!-- slider 3 -->
+            <div class="slide-list slider-last-child" data-lazy-background="img/slider-img3.jpg">
+                <h1 data-pos="['0', '0']" data-duration="1000" data-effect="fadein">
+					Online course
+                </h1>
+                <div class="slider-text" data-pos="['0', '0']" data-duration="700" data-effect="fadein">
+					<p>Start a creative and exciting career with <br>
+					our online programs</p>
+                </div>
+                <div class="slider-btn" data-pos="['0', '0']" data-duration="700" data-effect="fadein">
+					<a href="#" target="_self" class="rex-bottom-medium rex-btn-icon">
+					    <span class="rex-btn-text">learn more</span>
+					    <span class="rex-btn-text-icon"><i class="fa fa-arrow-circle-o-right"></i></span>
+					</a>
+                </div>
+            </div>    
+        </div>
+	</div>
+
+
 	<!-- courses_page -->
 
 	<section class="courses_page">
 		<div class="container">
-			<div class="col-md-8 courses_page-right">
-			    <div id="products" class="row list-group list-group-page">
-			        <div class="item  col-sm-12 courses-list">
-						<div class="block-content row">
-							<div class="courses-img col-md-6">
-								<img src="http://placehold.it/365x221" alt="">
-								<div class="courses-overlay">
-									<h6>$43</h6>
-								</div>
-							</div>
-							<div class="content col-md-6">
-								<!-- tag -->
-								<div class="tag">
-									<i class="fa fa-bookmark"></i>
-								</div><!-- end tag -->
-								<a href="single-courses.html"><h6>introduction to Marketing</h6></a>
-								<div class="entry-meta">
-									<div class="author">
-										<p>By <a href="#">Eric Grimson</a></p>
-									</div>
-									<div class="date">
-										<p>Starts: Jan 11, 2016</p>
+			<div class="col-md-12 courses_page-right">
+					<div id="products" class="row list-group list-group-page">
+
+						 <div class="item  col-sm-12 courses-list">
+							<div class="block-content row">
+								<div class="courses-img col-md-6">
+									<img src="img/high-speed2.jpg" alt="">
+									<div class="courses-overlay">
+										<h6>More</h6>
 									</div>
 								</div>
-								<p class="description">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
-							</div>
-						</div>
-			        </div>
-			        <div class="item  col-sm-12 courses-list">
-						<div class="block-content row">
-							<div class="courses-img col-md-6">
-								<img src="http://placehold.it/365x221" alt="">
-								<div class="courses-overlay">
-									<h6>$43</h6>
+								<div class="content col-md-6">
+									<!-- tag -->
+									<div class="tag">
+										<i class="fa fa-bookmark"></i>
+									</div><!-- end tag -->
+									<a href="#"><h5>Embedded Course Plan</h5></a>
+									<aside class="widget widget_archive">
+											<ul>
+													<li><a href="#">Embedded Systems 1</a>&nbsp;</li>
+													<li><a href="#">Embedded Systems 2</a>&nbsp;</li>
+													<li><a href="#">Embedded Systems 3</a>&nbsp;</li>
+													<li><a href="#">Embedded Systems 4</a>&nbsp;</li>
+											</ul>
+									</aside>
 								</div>
 							</div>
-							<div class="content col-md-6">
-								<a href="single-courses.html"><h6>introduction to Marketing</h6></a>
-								<div class="entry-meta">
-									<div class="author">
-										<p>By <a href="#">Eric Grimson</a></p>
-									</div>
-									<div class="date">
-										<p>Starts: Jan 11, 2016</p>
-									</div>
-								</div>
-								<p class="description">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
-							</div>
-						</div>
-			        </div>
-			        <div class="item  col-sm-12 courses-list">
-						<div class="block-content row">
-							<div class="courses-img col-md-6">
-								<img src="http://placehold.it/365x221" alt="">
-								<div class="courses-overlay">
-									<h6>$43</h6>
-								</div>
-							</div>
-							<div class="content col-md-6">
-								<!-- tag -->
-								<div class="tag">
-									<i class="fa fa-bookmark"></i>
-								</div><!-- end tag -->
-								<a href="single-courses.html"><h6>introduction to Marketing</h6></a>
-								<div class="entry-meta">
-									<div class="author">
-										<p>By <a href="#">Eric Grimson</a></p>
-									</div>
-									<div class="date">
-										<p>Starts: Jan 11, 2016</p>
+						 </div>
+
+						 <div class="item  col-sm-12 courses-list">
+							<div class="block-content row">
+								<div class="courses-img col-md-6">
+									<img src="img/codecode.jpg" alt="">
+									<div class="courses-overlay">
+										<h6>More</h6>
 									</div>
 								</div>
-								<p class="description">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
-							</div>
-						</div>
-			        </div>
-			        <div class="item  col-sm-12 courses-list">
-						<div class="block-content row">
-							<div class="courses-img col-md-6">
-								<img src="http://placehold.it/365x221" alt="">
-								<div class="courses-overlay">
-									<h6>$43</h6>
+								<div class="content col-md-6">								
+									<a href="#"><h5>BackEnd Course Plan</h5></a>
+									<aside class="widget widget_archive">
+											<ul>
+													<li><a href="#">PHP</a>&nbsp;</li>
+													<li><a href="#">Ruby</a>&nbsp;</li>
+													<li><a href="#">Python</a>&nbsp;</li>
+													<li><a href="#">Java</a>&nbsp;</li>
+											</ul>
+									</aside>
 								</div>
 							</div>
-							<div class="content col-md-6">
-								<a href="single-courses.html"><h6>introduction to Marketing</h6></a>
-								<div class="entry-meta">
-									<div class="author">
-										<p>By <a href="#">Eric Grimson</a></p>
-									</div>
-									<div class="date">
-										<p>Starts: Jan 11, 2016</p>
-									</div>
-								</div>
-								<p class="description">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
-							</div>
-						</div>
-			        </div>
-			        <div class="item  col-sm-12 courses-list">
-						<div class="block-content row">
-							<div class="courses-img col-md-6">
-								<img src="http://placehold.it/365x221" alt="">
-								<div class="courses-overlay">
-									<h6>$43</h6>
-								</div>
-							</div>
-							<div class="content col-md-6">
-								<a href="single-courses.html"><h6>introduction to Marketing</h6></a>
-								<div class="entry-meta">
-									<div class="author">
-										<p>By <a href="#">Eric Grimson</a></p>
-									</div>
-									<div class="date">
-										<p>Starts: Jan 11, 2016</p>
+						 </div>		 
+
+						 <div class="item  col-sm-12 courses-list">
+							<div class="block-content row">
+								<div class="courses-img col-md-6">
+									<img src="img/css3-code.jpg" alt="">
+									<div class="courses-overlay">
+										<h6>More</h6>
 									</div>
 								</div>
-								<p class="description">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
-							</div>
-						</div>
-			        </div>
-			        <div class="item  col-sm-12 courses-list">
-						<div class="block-content row">
-							<div class="courses-img col-md-6">
-								<img src="http://placehold.it/365x221" alt="">
-								<div class="courses-overlay">
-									<h6>$43</h6>
+								<div class="content col-md-6">
+									<a href="#"><h5>FrontEnd Course Plan</h></a>
+									<aside class="widget widget_archive">
+											<ul>
+													<li><a href="#">HTML5</a>&nbsp;</li>
+													<li><a href="#">Css3</a>&nbsp;</li>
+													<li><a href="#">Responsive Design</a>&nbsp;</li>
+													<li><a href="#">Java Script</a>&nbsp;</li>
+													<li><a href="#">jQuery</a>&nbsp;</li>
+											</ul>
+									</aside>
 								</div>
 							</div>
-							<div class="content col-md-6">
-								<a href="single-courses.html"><h6>introduction to Marketing</h6></a>
-								<div class="entry-meta">
-									<div class="author">
-										<p>By <a href="#">Eric Grimson</a></p>
-									</div>
-									<div class="date">
-										<p>Starts: Jan 11, 2016</p>
-									</div>
-								</div>
-								<p class="description">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
-							</div>
-						</div>
-			        </div>
-			        <div class="item  col-sm-12 courses-list">
-						<div class="block-content row">
-							<div class="courses-img col-md-6">
-								<img src="http://placehold.it/365x221" alt="">
-								<div class="courses-overlay">
-									<h6>$43</h6>
-								</div>
-							</div>
-							<div class="content col-md-6">
-								<!-- tag -->
-								<div class="tag">
-									<i class="fa fa-bookmark"></i>
-								</div><!-- end tag -->
-								<a href="single-courses.html"><h6>introduction to Marketing</h6></a>
-								<div class="entry-meta">
-									<div class="author">
-										<p>By <a href="#">Eric Grimson</a></p>
-									</div>
-									<div class="date">
-										<p>Starts: Jan 11, 2016</p>
-									</div>
-								</div>
-								<p class="description">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
-							</div>
-						</div>
-			        </div>
-			        <div class="item  col-sm-12 courses-list">
-						<div class="block-content row">
-							<div class="courses-img col-md-6">
-								<img src="http://placehold.it/365x221" alt="">
-								<div class="courses-overlay">
-									<h6>$43</h6>
-								</div>
-							</div>
-							<div class="content col-md-6">
-								<a href="single-courses.html"><h6>introduction to Marketing</h6></a>
-								<div class="entry-meta">
-									<div class="author">
-										<p>By <a href="#">Eric Grimson</a></p>
-									</div>
-									<div class="date">
-										<p>Starts: Jan 11, 2016</p>
-									</div>
-								</div>
-								<p class="description">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
-							</div>
-						</div>
-			        </div>
-			        <div class="item  col-sm-12 courses-list">
-						<div class="block-content row">
-							<div class="courses-img col-md-6">
-								<img src="http://placehold.it/365x221" alt="">
-								<div class="courses-overlay">
-									<h6>$43</h6>
-								</div>
-							</div>
-							<div class="content col-md-6">
-								<a href="single-courses.html"><h6>introduction to Marketing</h6></a>
-								<div class="entry-meta">
-									<div class="author">
-										<p>By <a href="#">Eric Grimson</a></p>
-									</div>
-									<div class="date">
-										<p>Starts: Jan 11, 2016</p>
-									</div>
-								</div>
-								<p class="description">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
-							</div>
-						</div>
-			        </div>
-			    </div>
-		    </div>
-			<div class="col-md-4">
-			    <aside class="widget widget_archive">
-			        <h5>Availability</h5>
-			        <ul>
-			            <li><a href="#">Current</a>&nbsp;204</li>
-			            <li><a href="#">Starting Soon</a>&nbsp;155</li>
-			            <li><a href="#">Upcoming</a>&nbsp;149</li>
-			            <li><a href="#">Self-Paced</a>&nbsp;453</li>
-			            <li><a href="#">Archived</a>&nbsp;33</li>
-			        </ul>
-			    </aside>
+						 </div>
+
+					</div>
+				</div>
+			<!-- <div class="col-md-4">
+					<aside class="widget widget_archive">
+							<h5>Availability</h5>
+							<ul>
+									<li><a href="#">Current</a>&nbsp;204</li>
+									<li><a href="#">Starting Soon</a>&nbsp;155</li>
+									<li><a href="#">Upcoming</a>&nbsp;149</li>
+									<li><a href="#">Self-Paced</a>&nbsp;453</li>
+									<li><a href="#">Archived</a>&nbsp;33</li>
+							</ul>
+					</aside>
 
 					<aside class="widget featured-section">
 						<h5>FEATURED COURSES</h5>
@@ -500,9 +332,9 @@
 							</div>
 						</div>
 					</aside>
-			</div>
+			</div> -->
 			<!-- end about list -->
-			<div class="col-md-12 courses_page_btn2">
+<!-- 			<div class="col-md-12 courses_page_btn2">
 				<nav>
 					<ul class="pagination">
 						<li><a href="#" aria-label="Previous"><span aria-hidden="true"><i class="fa fa-angle-left"></i></span></a></li>
@@ -511,7 +343,7 @@
 						<li><a href="#">3</a></li>
 					</ul>
 				</nav>
-			</div>
+			</div> -->
 		</div>
 	</section>
 
@@ -524,12 +356,12 @@
 
 <!-- footer section
 ==================== -->
-	<footer>
+<footer>
 		<div class="container">
 			<div class="row">
-				<div class="col-md-3 footer-section">
+				<div class="col-md-4 footer-section">
 					<div class="footer-description">
-						<img src="img/footer-logo.png" alt="">
+						<img src="img/logo e bardh logistics.png" alt="">
 						<p>It is a long established fact that a <br> reader will be distracted by the readable content of a page when looking at its.</p>
 						<div class="instructors-media-link">
 							<a data-toggle="tooltip" data-placement="top" title="" href="https://www.facebook.com/" data-original-title="Go facebook Profile"><i class="fa fa-facebook"></i></a>
@@ -539,7 +371,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-3 footer-section">
+				<div class="col-md-4 footer-section" id="contact">
 					<h3>Contact</h3>
 					<div class="address">
 						<div class="office">
@@ -555,10 +387,10 @@
 							</div>
 						</div>
 						<h6>email</h6>
-						<a class="email-add" href="mailto:email@rextheme.com">email@rextheme.com</a>
+						<a class="email-add" href="mailto:email@rextheme.com"></a>
 					</div>
 				</div>
-				<div class="col-md-3 footer-section">
+				<div class="col-md-4 footer-section">
 					<h3>About Us</h3>
 					<ul class="usefull-link">
 						<li><a href="#">Latest Courses</a></li>
@@ -568,40 +400,30 @@
 						<li><a href="#">Get In Touch</a></li>
 					</ul>
 				</div>
-				<div class="col-md-3 footer-section">
-					<h3>FAQ</h3>
-					<ul class="faq-section">
-						<li><a href="#">How can students, teachers, and educational institutions ?</a></li>
-						<li><a href="#">Students and educators: Am I eligible for a discount ?</a></li>
-						<li><a href="#">What forms of student/faculty identification are accepted ?</a></li>
-					</ul>
-				</div>
 			</div>
 			<div class="row copyright">
-				<div class="col-md-6">
+				<div class="col-md-12">
 					<p>Copyright &copy; 2016 Edurex | All Right Reserved | <a href="#">Privacy Policy</a> | <a href="#"> Terms of Use</a></p>
 				</div>
-				<div class="col-md-6">
-					<p class="align-right"> Created by <a href="#">RexTheme</a></p>
 				</div>
 			</div>
 		</div>
 	</footer>
 
-    <script src="js/vendor/jquery.min.js"></script>
-    <script src="js/vendor/bootstrap.min.js"></script>
-    <script src="js/vendor/jquery.counterup.min.js"></script>
-    <script src="js/vendor/parallax.js"></script>
-    <script src="js/vendor/waypoints.min.js"></script>
-    <script src="js/vendor/mislider.js"></script>
-    <script src="js/vendor/owl.carousel.min.js"></script>
-    <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM"></script>
-    <script src="js/vendor/jquery.devrama.slider.js"></script>
-    <script src="js/vendor/jquery.mobile.custom.min.js"></script>
-    <script src="js/vendor/wow.min.js"></script>
-    <script src="js/vendor/jquery.scrollUp.min.js"></script>
-    <script src="js/script.js"></script>
+		<script src="js/vendor/jquery.min.js"></script>
+		<script src="js/vendor/bootstrap.min.js"></script>
+		<script src="js/vendor/jquery.counterup.min.js"></script>
+		<script src="js/vendor/parallax.js"></script>
+		<script src="js/vendor/waypoints.min.js"></script>
+		<script src="js/vendor/mislider.js"></script>
+		<script src="js/vendor/owl.carousel.min.js"></script>
+		<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM"></script>
+		<script src="js/vendor/jquery.devrama.slider.js"></script>
+		<script src="js/vendor/jquery.mobile.custom.min.js"></script>
+		<script src="js/vendor/wow.min.js"></script>
+		<script src="js/vendor/jquery.scrollUp.min.js"></script>
+		<script src="js/script.js"></script>
 
-  </body>
+	</body>
 </html>
 

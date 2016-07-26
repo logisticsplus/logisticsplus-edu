@@ -737,8 +737,7 @@ ul.main-ul a {
 }
 aside.widget {
     background: #f9f9f9;
-    padding: 15px 11px;
-    margin-bottom: 30px;
+    padding: 0px 11px;
     border-bottom: 1px solid #e8e8e8;
 }
 aside.widget h1,
@@ -3159,7 +3158,7 @@ a#grid:focus {
     content: "";
 }
 .cssload-loader:before {
-    border: 1px solid #0db3eb;
+    border: 1px solid #5cdc46;
     top: -1px;
     left: -1px;
     opacity: 0;
@@ -3170,7 +3169,7 @@ a#grid:focus {
     -moz-animation-name: cssload-pulse;
 }
 .cssload-loader:after {
-    background-color: rgba(13, 179, 235, 0.66);
+    background-color: #5cdc46;
     animation-name: cssload-pulse-2;
     -o-animation-name: cssload-pulse-2;
     -ms-animation-name: cssload-pulse-2;
@@ -3317,7 +3316,7 @@ div.loading .wrapper {
     border-radius: 0 3px 3px 0;
     position: relative;
     overflow: hidden;
-    border-left: 1px solid #1bc1f5;
+    border-left: 1px solid white;
 }
 .rex-bottom-small .rex-btn-text-icon:before,
 .rex-bottom-medium .rex-btn-text-icon:before,
@@ -4747,3 +4746,21 @@ div.loading .wrapper {
     }
 }
 /*=====  End of Responsive style block  ======*/
+
+
+// Dont Scroll the map
+.map-container {
+  width: 100% !important;
+}
+.map-container iframe{
+  width: 100% !important;
+  display: block;
+  pointer-events: none;
+  position: relative; /* IE needs a position other than static */
+}
+.map-container iframe.clicked{
+  pointer-events: auto;
+}
+.map-container1 {
+  padding: 0px !important;
+}
