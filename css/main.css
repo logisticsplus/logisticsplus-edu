@@ -305,7 +305,7 @@ footer h6 {
     color: #fff;
 }
 footer .email-add:hover {
-    text-decoration: underline !important;
+    text-decoration: none;
 }
 footer .phone-number {
     display: inline-block;
@@ -810,6 +810,7 @@ aside.widget select {
 .widget.widget_categories ul li a,
 .widget.widget_archive ul li a {
     float: left;
+    cursor: default;
 }
 .widget.widget_nav_menu ul li {
     border: transparent;
@@ -2491,14 +2492,14 @@ a#grid:focus {
 }
 .block-content {
     background: #f9f9f9;
-    border-bottom: 1px solid #e8e8e8;
+    // border-bottom: 1px solid #e8e8e8;
     margin-bottom: 20px;
     -webkit-transition: 0.5s;
     transition: 0.5s;
 }
-.block-content:hover {
-    background: #fff;
-}
+// .block-content:hover {
+//     background: #fff;
+// }
 .block-content img {
     width: 100%;
 }
@@ -4438,6 +4439,7 @@ div.loading .wrapper {
     .silder .slide-list {
         padding: 13% 0;
         position: relative !important;
+        max-height: 680px;
     }
     .silder .slide-center h1,
     .silder .slide-center .slider-btn,
@@ -4567,7 +4569,7 @@ div.loading .wrapper {
         line-height: 1.1;
     }
     .testimonials {
-        padding-bottom: 95px;
+        padding-bottom: 140px;
     }
     /*=======
       * About page
