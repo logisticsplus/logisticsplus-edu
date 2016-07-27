@@ -33,183 +33,122 @@
     </div>
   </div>
 
-  <header>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="block">
-            <p><a href="#">My Account</a></p>
-            <!-- Extra small button group -->
-            <div class="btn-group">
-              <button class="btn btn-default btn-xs dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                ENGLISH <span class="caret"></span>
-              </button>
-              <ul class="dropdown-menu">
-                <li><a href="#">English</a></li>
-                <li><a href="#">France</a></li>
-                <li><a href="#">Germany</a></li>
-                <li><a href="#">Japanese</a></li>
-              </ul>
+    <header>
+  <div class="container">
+    <div class="row">
+    <div class="col-md-6">
+      <div class="block">
+      <p><a href="#">My Account</a></p>
+      <!-- Extra small button group -->
+      <div class="btn-group">
+        <button class="btn btn-default btn-xs dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        ENGLISH <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+        <li><a href="#">Shqip</a></li>
+        <li><a href="#">English</a></li>
+        </ul>
+      </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="block align-right">
+      <a href="#" data-toggle="modal" data-target="#registerModal" data-whatever="@mdo">register</a>
+      <div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="registerlLabel">
+        <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="registerlLabel">Register Now</h4>
+          </div>
+          <div class="modal-body">
+          <form class="rex-forms">
+            <div class="form-group">
+            <input type="text" class="form-control" id="fast-name" placeholder="Fast Name">
             </div>
+            <div class="form-group">
+            <input type="text" class="form-control" id="last-name" placeholder="Last Name">
+            </div>
+            <div class="form-group">
+            <input type="email" class="form-control" id="email-name" placeholder="E-mail">
+            </div>
+            <div class="form-group">
+            <input type="password" class="form-control" id="pass-word" placeholder="Password">
+            </div>
+            <div class="form-group">
+            <input type="password" class="form-control" id="re-pass-word" placeholder="Re-Password">
+            </div>
+          </form>
+          </div>
+          <div class="modal-footer">
+          <button class="rex-bottom-medium rex-btn-icon">
+            <span class="rex-btn-text">registration</span>
+            <span class="rex-btn-text-icon"><i class="fa fa-arrow-circle-o-right"></i></span>
+          </button>                    
           </div>
         </div>
-        <div class="col-md-6">
-          <div class="block align-right">
-            <a href="#">Help center</a>
-            <a href="#">online support</a>
-            <!-- Register Section -->
-            <a href="#" data-toggle="modal" data-target="#registerModal" data-whatever="@mdo">register</a>
-            <div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="registerlLabel">
-              <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="registerlLabel">Register Now</h4>
-                  </div>
-                  <div class="modal-body">
-                    <form class="rex-forms">
-                      <div class="form-group">
-                        <input type="text" class="form-control" id="fast-name" placeholder="Fast Name">
-                      </div>
-                      <div class="form-group">
-                        <input type="text" class="form-control" id="last-name" placeholder="Last Name">
-                      </div>
-                      <div class="form-group">
-                        <input type="email" class="form-control" id="email-name" placeholder="E-mail">
-                      </div>
-                      <div class="form-group">
-                        <input type="password" class="form-control" id="pass-word" placeholder="Password">
-                      </div>
-                      <div class="form-group">
-                        <input type="password" class="form-control" id="re-pass-word" placeholder="Re-Password">
-                      </div>
-                    </form>
-                  </div>
-                  <div class="modal-footer">
-                    <button class="rex-bottom-medium rex-btn-icon">
-                        <span class="rex-btn-text">registration</span>
-                        <span class="rex-btn-text-icon"><i class="fa fa-arrow-circle-o-right"></i></span>
-                    </button>                    
-                  </div>
-                </div>
-              </div>
+        </div>
+      </div>
+      <a href="#" data-toggle="modal" data-target="#loginModal" data-whatever="@mdo"><i class="fa fa-lock"></i>LOG in </a> 
+      <!-- Login Option -->
+      <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginLabel">
+        <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="loginLabel">Login</h4>
+          </div>
+          <div class="modal-body">
+          <form class="rex-forms">
+            <div class="form-group">
+            <input type="text" class="form-control" id="recipient-name" placeholder="Name">
             </div>
-            <!-- <a href="#"><i class="fa fa-lock"></i>LOG in </a> -->
-            <a href="#" data-toggle="modal" data-target="#loginModal" data-whatever="@mdo"><i class="fa fa-lock"></i>LOG in </a>
-            <!-- Login Option -->
-            <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginLabel">
-              <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="loginLabel">Login</h4>
-                  </div>
-                  <div class="modal-body">
-                    <form class="rex-forms">
-                      <div class="form-group">
-                        <input type="text" class="form-control" id="recipient-name" placeholder="Name">
-                      </div>
-                      <div class="form-group">
-                        <input type="password" class="form-control" id="pass_word" placeholder="Password">
-                      </div>
-                    </form>
-                  </div>
-                  <div class="modal-footer">
-                    <button class="rex-bottom-medium rex-btn-icon">
-                        <span class="rex-btn-text">Login</span>
-                        <span class="rex-btn-text-icon"><i class="fa fa-arrow-circle-o-right"></i></span>
-                    </button>  
-                  </div>
-                </div>
-              </div>
+            <div class="form-group">
+            <input type="password" class="form-control" id="pass_word" placeholder="Password">
             </div>
+          </form>
+          </div>
+          <div class="modal-footer">
+          <button class="rex-bottom-medium rex-btn-icon">
+            <span class="rex-btn-text">Login</span>
+            <span class="rex-btn-text-icon"><i class="fa fa-arrow-circle-o-right"></i></span>
+          </button>  
+          </div>
+        </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  </header>
+<main class="rex-main-content">
+  <!-- Add your site or application content here -->
+<!-- Navigation Html
+=================== -->
+<div class="main-menu">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="logo">
+          <a href="index.html">
+            <img class="img-responsive" src="img/logisticsplus_logo.png" alt="">
+          </a>
+        </div>
+        <div class="menu-container">
+          <div class="menu">
+            <ul class="main-ul">
+              <li><a class="active" href="index.html">Home</a></li>
+              <li><a href="courses-list.html">Courses</a></li>
+              <li><a href="instructors.html">Instructors</a></li>
+              <li><a href="about_page.html">About</a>
+              <li><a href="#contact">Contact</a>
+            </ul>
           </div>
         </div>
       </div>
     </div>
-  </header>
-<main class="rex-main-content">
-  <!-- Add your site or application content here -->
-
-	<!-- Navigation Html -->
-	<div class="main-menu">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="logo">
-                    <a href="index.html">
-                        <img class="img-responsive" src="img/logo.png" alt="">
-                    </a>
-                </div>
-                <div class="menu-container">
-                    <div class="menu">
-                        <ul class="main-ul">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="javascript:void(0)">+ Courses</a>
-                                <ul>
-                                    <li><h6>Courses pages</h6>
-                                        <ul>
-                                            <li><a href="courses.html">Courses</a></li>
-                                            <li><a href="courses-list.html">Courses list</a></li>
-                                            <li><a href="courses-grid.html">Courses grid</a></li>
-                                            <!-- <li><a href="courses-slide.html">Courses grid Slider</a></li> -->
-                                            <li><a href="courses-list-fullwidth.html">Courses list Fullwidth</a></li>
-                                            <li><a href="courses-grid-fullwidth.html">Courses grid Fullwidth</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><h6>Single course</h6>
-                                        <ul>
-                                            <li><a href="single-courses.html">Single Course Version 1</a></li>
-                                            <li><a href="single-course-left.html">Single Course Version 2</a></li>
-                                            <li><a href="single-course-right.html">Single Course Version 3</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><h6>Availability</h6>
-                                        <ul>
-                                            <li><a href="courses.html">Current</a></li>
-                                            <li><a href="courses.html">Starting Soon</a></li>
-                                            <li><a href="courses.html">upcoming</a></li>
-                                            <li><a href="courses.html">self-paced</a></li>
-                                            <li><a href="courses.html">Archived</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li><a class="active" href="javascript:void(0)">+ Blog</a>
-                                <ul>
-                                    <li><a href="blog-left.html">Blog Right</a></li>
-                                    <li><a class="active" href="blog-right.html">Blog Left</a></li>
-                                    <li><a href="blog-no-sidebar.html">Blog No Sidebar</a></li>
-                                    <li><a href="single-blog.html">Single Blog</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="javascript:void(0)">+ Instructors</a>
-                                <ul>
-                                    <li><a href="instructors.html">Instructors</a></li>
-                                    <li><a href="single-instructors.html">Single Instructor</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="about_page.html">About</a>
-                            <li><a href="contact.html">Contact</a>
-                        </ul>
-                    </div>
-                    <div class="menu-search" >
-                        
-                        <button id="test" class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
-                        <div id="myNav" class="overlay">
-                            <a href="javascript:void(0)" class="closebtn" id="closeNav">×</a>
-                            <div class="search-input">
-                                <input type="text" class="form-control" placeholder="What do you want to learn today?">
-                                <button class="rex-bottom-medium rex-btn-icon search-btn" type="submit">
-                                    <span class="rex-btn-text"><i class="fa fa-search"></i></span>
-                                </button>  
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+  </div>
 </div>
 
     
@@ -229,14 +168,15 @@
 				</div>
 			</div>
 		</div>
-	</section><!-- End Breadcum section -->
+	</section>
+  <!-- End Breadcum section -->
 
 	<!-- course_detail -->
 
 	<section class="blog-page">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-8 blog-right">
+				<div class="col-md-12 blog-right">
 					<!-- Single courses img section -->
 					<div class="blog-list-section">
 						<div class="single-img">
@@ -245,251 +185,105 @@
 						<div class="blog-content">
 							<div class="blog-title">
 								<div class="block-date">
-									<p>24 <br> Dec</p>
+									<p>03 <br> Oct</p>
 								</div>
-								<a href="single-blog.html"><h3>International Summer Programmes</h3></a>
+								<a href="single-blog.html"><h3>Embedded Systems</h3></a>
 							</div>
-							<div class="clearfix"></div>
-							<div class="author-section author-top">
-								<div class="author">
-									<p>By <a href="#">Eric Grimson</a></p>
-								</div>
-								<div class="categories-links">
-									<a href="#"><p> Marketing </p></a>
-								</div>
-								<div class="rex-comments">
-									<p><i class="fa fa-comments"></i>16</p>
-								</div>
-							</div>
-							<!-- description section -->
-							<div class="description">
-								<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudi
-								bibendum auctor, <span class="display-none">nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulp
-								sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed
-								vitae erat consequat auctor.</span></p>
-							</div><!-- end -->
+								<!-- description section -->
+              <div class="row">
+                    <div class="timeline col-md-3">
+                      <h6>Timeline 66h</h6>
+                    </div>
+                    <div class="timeline col-md-3">
+                      <h6>Price</h6>
+                    </div>
+                    <div class="timeline col-md-3">
+                      <h6>Language <span>Albanian</span></h6>
+                    </div>
+                    <div class="timeline col-md-3">
+                      <h6>Video</h6>
+                    </div>
+              </div>    
+              <!-- end -->
 							<div class="entry-meta">
 								<div class="author-section author-bottom">
 									<div class="author">
 										<p>By <a href="#">Eric Grimson</a></p>
 									</div>
-									<div class="categories-links">
-										<a href="#"><p> Marketing </p></a>
-									</div>
-									<div class="rex-comments">
-										<p><i class="fa fa-comments"></i>16</p>
-									</div>
-								</div>
-								<div class="read-more">
-									<a href="single-blog.html">Read More</a>
-								</div>
 							</div>
 						</div>
 					</div>
-
-					<div class="blog-list-section">
-						<div class="single-img">
-							<img class="img-responsive" src="http://placehold.it/750x350" alt="">
-						</div><!-- end -->
-						<div class="blog-content">
-							<div class="blog-title">
-								<div class="block-date">
-									<p>24 <br> Dec</p>
-								</div>
-								<a href="single-blog.html"><h3>Why You Should Read Every Day</h3></a>
-							</div>
-							<div class="clearfix"></div>
-							<div class="author-section author-top">
-								<div class="author">
-									<p>By <a href="#">Eric Grimson</a></p>
-								</div>
-								<div class="categories-links">
-									<a href="#"><p> Marketing </p></a>
-								</div>
-								<div class="rex-comments">
-									<p><i class="fa fa-comments"></i>16</p>
-								</div>
-							</div>
-							<!-- description section -->
-							<div class="description">
-								<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudi
-								bibendum auctor, <span class="display-none">nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulp
-								sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed
-								vitae erat consequat auctor.</span></p>
-							</div><!-- end -->
-							<div class="entry-meta">
-								<div class="author-section author-bottom">
-									<div class="author">
-										<p>By <a href="#">Eric Grimson</a></p>
-									</div>
-									<div class="categories-links">
-										<a href="#"><p> Marketing </p></a>
-									</div>
-									<div class="rex-comments">
-										<p><i class="fa fa-comments"></i>16</p>
-									</div>
-								</div>
-								<div class="read-more">
-									<a href="single-blog.html">Read More</a>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="blog-list-section">
-						<div class="single-img">
-							<img class="img-responsive" src="http://placehold.it/750x350" alt="">
-						</div><!-- end -->
-						<div class="blog-content">
-							<div class="blog-title">
-								<div class="block-date">
-									<p>24 <br> Dec</p>
-								</div>
-								<a href="single-blog.html"><h3>Online Learning Glossary</h3></a>
-							</div>
-							<div class="clearfix"></div>
-							<div class="author-section author-top">
-								<div class="author">
-									<p>By <a href="#">Eric Grimson</a></p>
-								</div>
-								<div class="categories-links">
-									<a href="#"><p> Marketing </p></a>
-								</div>
-								<div class="rex-comments">
-									<p><i class="fa fa-comments"></i>16</p>
-								</div>
-							</div>
-							<!-- description section -->
-							<div class="description">
-								<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudi
-								bibendum auctor, <span class="display-none">nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulp
-								sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed
-								vitae erat consequat auctor.</span></p>
-							</div><!-- end -->
-							<div class="entry-meta">
-								<div class="author-section author-bottom">
-									<div class="author">
-										<p>By <a href="#">Eric Grimson</a></p>
-									</div>
-									<div class="categories-links">
-										<a href="#"><p> Marketing </p></a>
-									</div>
-									<div class="rex-comments">
-										<p><i class="fa fa-comments"></i>16</p>
-									</div>
-								</div>
-								<div class="read-more">
-									<a href="single-blog.html">Read More</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<nav class="blog-pagination">
-						<ul class="pagination">
-							<li><a href="#" aria-label="Previous"><span aria-hidden="true"><i class="fa fa-angle-left"></i></span></a></li>
-							<li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
-							<li><a href="#">2</a></li>
-							<li><a href="#">3</a></li>
-						</ul>
-					</nav>
-				</div>
-
-				<div class="col-md-4">
-
-					<!-- search section -->
-					<aside class="widget">
-						<h5>SEARCH BLOG</h5>
-						<form class="form-inline search">
-						  <div class="form-group">
-						    <div class="input-group">
-						      <input type="text" class="form-control" placeholder="Search">
-						      <div class="input-group-addon">
-						      	<button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
-						      </div>
-						    </div>
-						  </div>
-						</form>
-					</aside>
-					<!-- end -->
-
-					<aside class="widget featured-section">
-						<h5>RECENT POSTS</h5>
-						<div class="instructor-content">
-							<div class="instructor-img">
-								<img src="http://placehold.it/82x82" alt="">
-							</div>
-							<div class="instruction-sidbar-title">
-								<a href="#"><h6>Water Management</h6></a>
-								<span class="date">Starts: Jan 11, 2016</span>
-								<p>By <a href="#">Eric Grimson</a></p>
-							</div>
-						</div>
-						<div class="clearfix"></div>
-						<div class="instructor-content">
-							<div class="instructor-img">
-								<img src="http://placehold.it/82x82" alt="">
-							</div>
-							<div class="instruction-sidbar-title">
-								<a href="#"><h6>healthy food healthy</h6></a>
-								<span class="date">Starts: Jan 11, 2016</span>
-								<p>By <a href="#">Eric Grimson</a></p>
-							</div>
-						</div>
-						<div class="clearfix"></div>
-						<div class="instructor-content">
-							<div class="instructor-img">
-								<img src="http://placehold.it/82x82" alt="">
-							</div>
-							<div class="instruction-sidbar-title">
-								<a href="#"><h6>How to Write a Novel</h6></a>
-								<span class="date">Starts: Jan 11, 2016</span>
-								<p>By <a href="#">Eric Grimson</a></p>
-							</div>
-						</div>
-					</aside>
-
-				    <aside class="widget widget_archive">
-				        <h5>Catagories</h5>
-				        <ul>
-				            <li><a href="#">Architecture:</a>&nbsp;204</li>
-				            <li><a href="#">Art &#38; Culture:</a>&nbsp;155</li>
-				            <li><a href="#">Biology &#38; Life Sciences:</a>&nbsp;149</li>
-				            <li><a href="#">Chemistry:</a>&nbsp;453</li>
-				            <li><a href="#">Communication:</a>&nbsp;33</li>
-				        </ul>
-				    </aside>
-
-				    <aside class="widget gallery">
-				    	<h5>Gallery</h5>
-				    	<br>
-				    	<div class="gallery-img">
-							<a href="#"><img src="http://placehold.it/94x91" alt=""></a>
-							<a href="#"><img src="http://placehold.it/94x91" alt=""></a>
-							<a href="#"><img src="http://placehold.it/94x91" alt=""></a>
-							<a href="#"><img src="http://placehold.it/94x91" alt=""></a>
-							<a href="#"><img src="http://placehold.it/94x91" alt=""></a>
-							<a href="#"><img src="http://placehold.it/94x91" alt=""></a>
-							<a href="#"><img src="http://placehold.it/94x91" alt=""></a>
-							<a href="#"><img src="http://placehold.it/94x91" alt=""></a>
-							<a href="#"><img src="http://placehold.it/94x91" alt=""></a>	
-						</div>			    	
-				    </aside>
-
-				    <aside class="widget widget_archive">
-				        <h5>Availability</h5>
-				        <ul>
-				            <li><a href="#">December  2015</a>&nbsp;12</li>
-				            <li><a href="#">November 2015</a>&nbsp;05</li>
-				            <li><a href="#">September 2015</a>&nbsp;09</li>
-				            <li><a href="#">October 2015</a>&nbsp;03</li>
-				            <li><a href="#">September 2015</a>&nbsp;07</li>
-				        </ul>
-				    </aside>
 				</div>
 			</div>
 		</div>
 	</section>
 
+
+  <!--Start of bootstrap collapse  -->
+
+
+  <div class="panel-group container" id="accordion" role="tablist" aria-multiselectable="true">
+
+    <div class="panel panel-default">
+      <div class="panel-heading" role="tab" id="headingOne">
+        <h4 class="panel-title">
+          <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Course Summ
+          </a>
+        </h4>
+      </div>
+      <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+        <div class="panel-body">
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 
+        </div>
+      </div>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-heading" role="tab" id="headingTwo">
+        <h4 class="panel-title">
+          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Why Toke This Course 
+          </a>
+        </h4>
+      </div>
+      <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+        <div class="panel-body">
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+      </div>
+    </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading" role="tab" id="headingThree">
+        <h4 class="panel-title">
+          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            What You'll Learn
+          </a>
+        </h4>
+      </div>
+      <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+        <div class="panel-body">
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. 
+        </div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading" role="tab" id="headingThree">
+        <h4 class="panel-title">
+          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsefour" aria-expanded="false" aria-controls="collapseThree">
+            Syllabus
+          </a>
+        </h4>
+      </div>
+      <div id="collapsefour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+        <div class="panel-body">
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. 
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- End of bootstrap collapse -->  
 	
 </main>  
 

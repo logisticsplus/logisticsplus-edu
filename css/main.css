@@ -3245,10 +3245,18 @@ div.loading {
     background-color: #fff;
     z-index: 9999999999999;
 }
-div.loading .wrapper {
+// div.loading .wrapper {
+//     position: fixed;
+//     top: 50%;
+//     left: 46%;
+//     -webkit-transform: translate(-50%, -50%);
+//     transform: translate(-50%, -50%);
+// }
+
+div.loading .wrapper img{
     position: fixed;
     top: 50%;
-    left: 50%;
+    left: auto;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
@@ -4728,7 +4736,7 @@ div.loading .wrapper {
         line-height: 2.3;
     }
     .blog-page .blog-content {
-        padding: 40px 40px 20px;
+        // padding: 40px 40px 20px;
     }
     /*=======
       Single-blog page    
@@ -4766,3 +4774,5 @@ div.loading .wrapper {
 .map-container1 {
   padding: 0px !important;
 }
+
+// Course Details Page

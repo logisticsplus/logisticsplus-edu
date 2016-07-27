@@ -317,4 +317,9 @@
 
 }(jQuery)); // IIFE
 
+// Bootstrap Collapse
 
+
+$('#myCollapsible').collapse({
+  toggle: false
+})
