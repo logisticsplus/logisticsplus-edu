@@ -185,7 +185,7 @@ h6 {
  */
 
 header {
-    background: #87c440;
+    background: #70dd5d;
     font-size: 12px;
     font-weight: 600;
     text-transform: uppercase;
@@ -218,7 +218,7 @@ header .block {
     text-align: center;
 }
 header .block a {
-    color: #797979;
+    color: white;
     display: inline-block;
     margin-right: 10px;
 }
@@ -288,8 +288,12 @@ header .block .open .dropdown-menu {
     transform: translateY(0);
 }
 
-button span .caret:hover {
+button span .caret{
     color: white
+}
+
+.language-dropdown-nav li a {
+    color: #7d7979;
 }
 /**
  * ---------------------------------------------------------------------------
@@ -1947,7 +1951,7 @@ a#grid:focus i {
     margin: 0;
 }
 .course-reating .rex-bottom-medium:hover {
-    background: #00A4DA;
+    // background: #00A4DA;
 }
 .course-reating .rex-bottom-medium:focus {
     color: #fff;
@@ -4421,7 +4425,7 @@ div.loading .wrapper img{
         padding: 0 15px;
     }
     .breadcum h4 {
-        font-size: 38px;
+        font-size: 60px;
     }
     .search-btn .rex-btn-text-icon {
         margin-top: 5px;
