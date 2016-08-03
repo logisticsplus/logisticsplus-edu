@@ -295,11 +295,23 @@ button span .caret{
 .language-dropdown-nav li a {
     color: #7d7979;
 }
-/**
+
+.topnav-courses__dropdown {
+    background-color: white !important;
+    display: none;
+    margin-top: -20px !important;
+    box-shadow: 0 0.3125em 1.25em 0 rgba(46,61,73,0.12) !important;
+}
+
+.topnav-courses__dropdown li a {
+    font-size: 12px;
+}
+
+*
  * ---------------------------------------------------------------------------
  * 0?. Footer Styles
  * ---------------------------------------------------------------------------
- */
+ 
 
 footer {
     background: #293136;
@@ -3939,7 +3951,7 @@ div.loading .wrapper img{
     ul.main-ul {
         width: auto;
         margin-right: 15px;
-        padding-left: 28%;
+        padding-left: 38%;
     }
     ul.main-ul li a {
         padding: 31px 20px;
@@ -4847,7 +4859,7 @@ panel-group Course Details
 
  .benifits-panel__body {
     margin-top: 40px; 
-    padding: 50px 60px; 
+    padding: 50px 70px; 
  }
 
 .benifits-panel__text {
