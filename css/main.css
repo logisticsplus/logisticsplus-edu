@@ -4852,7 +4852,7 @@ panel-group Course Details
     left: 0;
     z-index: 1000;
     opacity: 0;
-    background: rgba(143,27,15,0.8);
+    background: #70dd5d;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
@@ -4879,7 +4879,7 @@ panel-group Course Details
 
 /*Ngjyrat e backgroundit te popupit*/
 .md-show.md-effect-12 ~ .md-overlay {
-    background: #e74c3c; 
+    background: #70dd5d; 
 } 
 
 .md-show.md-effect-12 .md-content {
