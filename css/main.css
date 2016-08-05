@@ -1594,20 +1594,6 @@ aside.widget.widget_archive ul li:last-child {
 .president .content-text {
     border-bottom: 1px solid #e8e8e8;
 }
-.president .president-title {
-    padding-top: 20px;
-}
-.president .president-title h3 {
-    text-transform: uppercase;
-    margin: 0;
-    padding-bottom: 5px;
-}
-.president .president-title span {
-    color: #5cdc46;
-    text-transform: uppercase;
-    font-family: "Montserrat", sans-serif !important;
-    font-weight: 700;
-}
 .president p {
     padding: 20px 0;
 }
@@ -4877,6 +4863,16 @@ panel-group Course Details
     transition: all 0.3s;
 }
 
+
+.img-profile__panel {
+  background-color: white !important;
+}
+
+.more-informations {
+  color: lightgreen;
+  cursor: pointer;
+}
+
 /*Ngjyrat e backgroundit te popupit*/
 .md-show.md-effect-12 ~ .md-overlay {
     background: #70dd5d; 
@@ -4890,3 +4886,44 @@ panel-group Course Details
     opacity: 1;
 }
 
+.md-close {
+  text-align: right;
+}
+
+.md-close span{
+  color: white;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.md-close span:hover {
+  color: rgba(255, 255, 255, 0.64);
+  cursor: pointer;
+  transition: all ease-in-out 0.2s;
+}
+
+.president-content img {
+    margin-top: 30px;
+}
+
+.president-title {
+    padding-top: 0px;
+}
+.president-title h3 {
+  text-align: center;
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+    padding-bottom: 20px;
+    font-weight: normal;
+}
+.president-title span {
+    color: white;
+    font-family: "Montserrat", sans-serif !important;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.president-title p {
+    color: white;
+}
