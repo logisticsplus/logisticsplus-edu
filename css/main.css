@@ -4735,7 +4735,7 @@ panel-group Course Details
     margin-top: 13px;
 }
 
-/*
+/**
  * Dont Scroll the map
  */
 
@@ -4768,7 +4768,11 @@ panel-group Course Details
     color: red;
 }
 
-/* 
+
+
+
+
+/** 
  * Benefits panel on course details
  */
 
@@ -4786,7 +4790,7 @@ panel-group Course Details
 
 
  .benifits-panel__body {
-    margin-top: 40px; 
+    margin-top: 30px; 
     padding: 50px 70px; 
  }
 
@@ -4799,6 +4803,14 @@ panel-group Course Details
 .benifits-panel__text i {
     color: green;
 }
+
+@media only screen and (max-width: 798px) {
+    .benifits-panel__body {
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+}
+
 
 
 /*-----------------------*\
@@ -4849,9 +4861,18 @@ panel-group Course Details
     visibility: visible;
 }
 
-/* Effect 12:  Just me */
 
-/*Transoformimi i popupit kur te hapet*/
+
+/*-----------------------*\
+    Effect 12:  Just me 
+\*-----------------------*/
+
+
+
+/**
+ * Transoformimi i popupit kur te hapet
+ */ 
+
 .md-effect-12 .md-content {
     -webkit-transform: scale(0.8);
     -moz-transform: scale(0.8);
@@ -4873,7 +4894,12 @@ panel-group Course Details
   cursor: pointer;
 }
 
-/*Ngjyrat e backgroundit te popupit*/
+
+
+/**
+ * Ngjyrat e backgroundit te popupit
+ */
+
 .md-show.md-effect-12 ~ .md-overlay {
     background: #70dd5d; 
 } 
@@ -4931,9 +4957,37 @@ panel-group Course Details
 }
 
 
-/*-----------------------------*\
-    Course's Details Syllabus
-\*-----------------------------*/
+
+
+
+/**
+ * What you will Learn Tab
+ */
+
+.what-you-learn__tab {
+  text-align: center;
+}
+
+.what-you-learn__tab span {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.css3-img img{
+  height: 150px;
+}
+
+.css3-img {
+  padding-left: 20px;
+}
+
+
+
+
+
+/*---------------------------------*\
+    Course's Details Syllabus TAB
+\*---------------------------------*/
 
 .tabs-syllabus__month {
   border-bottom: solid rgba(228, 217, 217, 0.62) 2px;
@@ -4954,22 +5008,4 @@ panel-group Course Details
     .tabs-syllabus__body {
         padding-right: 0px;
     }
-}
-
-
-.what-you-learn__tab {
-  text-align: center;
-}
-
-.what-you-learn__tab span {
-  font-weight: bold;
-}
-
-.css3-img img{
-  height: 150px;
-  /*width: 200px;*/
-}
-
-.css3-img {
-  padding-left: 20px;
 }
