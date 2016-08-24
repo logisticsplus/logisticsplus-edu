@@ -50,7 +50,7 @@
 		</div>
 		<div class="col-md-6">
 		  <div class="block align-right">
-			<a href="#" data-toggle="modal" data-target="#registerModal" data-whatever="@mdo">register</a>
+			<!-- <a href="#" data-toggle="modal" data-target="#registerModal" data-whatever="@mdo">register</a> -->
 			<div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="registerlLabel">
 			  <div class="modal-dialog" role="document">
 				<div class="modal-content">
@@ -86,35 +86,43 @@
 				</div>
 			  </div>
 			</div>
-			<a href="#" data-toggle="modal" data-target="#loginModal" data-whatever="@mdo"><i class="fa fa-lock"></i>LOG in </a> 
+			<!-- <a href="#" data-toggle="modal" data-target="#loginModal" data-whatever="@mdo"><i class="fa fa-lock"></i>LOG in </a>  -->
+			
 			<!-- Login Option -->
 			<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginLabel">
 			  <div class="modal-dialog" role="document">
 				<div class="modal-content">
 				  <div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-					<h4 class="modal-title" id="loginLabel">Login</h4>
+					<div class="logo_login-popup"></div>
+					<img class="img-responsive" src="img/logisticsplus_logo.png" alt="">
 				  </div>
 				  <div class="modal-body">
-					<form class="rex-forms">
-					  <div class="form-group">
-						<input type="text" class="form-control" id="recipient-name" placeholder="Name">
-					  </div>
-					  <div class="form-group">
-						<input type="password" class="form-control" id="pass_word" placeholder="Password">
-					  </div>
-					</form>
+					<form id="login" method="post" action="#">
+
+					<div class="col-md-12">
+				      <input  type="text" autocapitalize="off" autocorrect="off"/ placeholder="USERNAME">
+				    </div>
+				    <div class="col-md-12">  
+				      <input required name="login[password]" type="password" placeholder="PASSWORD" />
+				      <div class="hide-show">
+				        <span>Show</span>
+				      </div>	
+				    </div>
+				      
+				    </form>
 				  </div>
 				  <div class="modal-footer">
 					<button class="rex-bottom-medium rex-btn-icon">
 						<span class="rex-btn-text">Login</span>
 						<span class="rex-btn-text-icon"><i class="fa fa-arrow-circle-o-right"></i></span>
 					</button>  
-				  </div>
 				</div>
 			  </div>
 			</div>
 		  </div>
+
+
 		</div>
 	  </div>
 	</div>
@@ -123,38 +131,51 @@
 	<!-- Add your site or application content here -->
 <!-- Navigation Html
 =================== -->
-<div class="main-menu">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<div class="logo">
-					<a href="index.html">
-						<img class="img-responsive" src="img/logisticsplus_logo.png" alt="">
-					</a>
-				</div>
-				<div class="menu-container">
-					<div class="menu">
-						<ul class="main-ul">
-							<li><a class="active" href="index.html">Home</a></li>
-							<li><a href="#" class="courses-nav">Courses</a>
-								<ul class="topnav-courses__dropdown">
-									<li><a href="embedded-details.html">Embedded Systems</a></li>
-									<li><a href="backend-details.html">Back-End</a></li>
-									<li><a href="frontend-details.html">Front-End</a></li>
-								</ul>
-							</li>
-							<li><a href="#teamid">Instructors</a></li>
-							<!-- <li><a href="about_page.html">About</a> -->
-							<li><a href="#contact">Contact</a>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="index.html">
+		<img class="img-responsive" src="img/logisticsplus_logo.png" alt="">
+	  </a>
+    </div>
 
-	
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right navigation_height">
+        <li>
+          <a class="active" href="index.html">HOME</a>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">COURSES</a>
+          <ul class="dropdown-menu">
+			<li><a href="embedded-details.html">Embedded Systems</a></li>
+			<li><a href="backend-details.html">Back-End</a></li>
+			<li><a href="frontend-details.html">Front-End</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#teamid">TEAM</a>
+        </li>
+        <li>
+          <a href="#contact">CONTACT</a>
+        </li>
+        <li>
+        	<a href="#" data-toggle="modal" data-target="#loginModal" data-whatever="@mdo"><i class="fa fa-lock"></i> LOG IN </a>
+        </li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container -->
+</nav>
+
 
 <!-- Slider Html 
 ====================-->
@@ -302,8 +323,8 @@
 
 <!-- Insturctors and Team 
 ====================-->
-			<div class="container">
-				<div class="title-section col-md-12" id="teamid">
+			<div class="container" id="teamid">
+				<div class="title-section col-md-12">
 					<h2>Our Team</h2>
 					<p></p>
 				</div>

@@ -184,6 +184,27 @@ h6 {
  * ---------------------------------------------------------------------------
  */
 
+
+ /***************** Navigation Bar ******************/
+
+@media(min-width:768px) {
+  .navbar-default {
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+    padding: 15px 0;
+    /* Add additional styles here for the UNCOLLAPSED state */
+  }
+  .navbar-default.affix {
+    padding: 0;
+    /* Add additional styles here for the COLLAPSED state */
+  }
+}
+
+.navigation_height {
+  padding-top: 12px;
+}
+
 header {
     background: #70dd5d;
     font-size: 12px;
@@ -5009,3 +5030,5 @@ panel-group Course Details
         padding-right: 0px;
     }
 }
+
+
