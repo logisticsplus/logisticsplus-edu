@@ -193,17 +193,17 @@ h6 {
     -moz-transition: all .35s;
     transition: all .35s;
     padding: 15px 0;
-    /* Add additional styles here for the UNCOLLAPSED state */
   }
   .navbar-default.affix {
     padding: 0;
-    /* Add additional styles here for the COLLAPSED state */
   }
 }
 
 .navigation_height {
   padding-top: 12px;
 }
+
+
 
 header {
     background: #70dd5d;
@@ -328,6 +328,41 @@ button span .caret{
     font-size: 12px;
 }
 
+
+/**
+ * Lgoin PopUp  
+ **/
+ .popup-content-LI {
+  width: 25%;
+ }
+
+.logo_login-popup img {
+  margin: 0 auto;
+  padding-bottom: 15px;
+}
+
+.input_login-forms {
+  padding-bottom: 30px;
+}
+
+.login-input {
+  width: 90%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding-bottom: 5px;
+  padding-top: 37px;
+}
+
+.login-input:active {
+  outline: none;
+  box-shadow: none;
+}
+
+.login-input:focus {
+  outline: none;
+  box-shadow: none;
+}
 /**
  * ---------------------------------------------------------------------------
  * 0?. Footer Styles
@@ -900,6 +935,11 @@ aside.widget.widget_archive ul li:last-child {
     color: #fff;
     font-size: 16px;
 }
+
+.rex-slider {
+  margin-top: 100px;
+}
+
 .rex-slider h1,
 .rex-slider p {
     color: #fff;
@@ -1082,11 +1122,9 @@ aside.widget.widget_archive ul li:last-child {
 }
 .testimonials {
     background: url("../img/lined_paper.png");
-    border-top: 1px solid #e8e8e8;
-    border-bottom: 1px solid #e8e8e8;
 }
 .testimonials .testimonial-author {
-    margin: 0 auto 20px;
+    margin: 0 auto;
     width: 96px;
     height: 96px;
     border-radius: 100%;
@@ -3449,6 +3487,11 @@ div.loading .wrapper img{
     .content p {
         margin: 0;
     }
+
+    .rex-slider {
+      margin-top: 100px;
+    }
+
     /*=====
       * Home page 
     =======*/
@@ -3516,6 +3559,10 @@ div.loading .wrapper img{
     aside.widget ul li {
         padding: 15px 18px 15px 35px;
     }
+    .rex-slider {
+      margin-top: 100px;
+    }
+
     .owl-controls {
         position: absolute;
         top: 0;
@@ -3699,6 +3746,10 @@ div.loading .wrapper img{
         -webkit-transform: translateX(0%);
         transform: translateX(0%);
     }
+    .rex-slider {
+      margin-top: 100px;
+    }
+
     .display-none {
         display: inline;
     }
@@ -3943,6 +3994,11 @@ div.loading .wrapper img{
     header .align-right {
         text-align: right;
     }
+
+    .rex-slider {
+      margin-top: 100px;
+    }
+
     .rex-slider h1 {
         font-size: 40px;
         line-height: 50px;
@@ -4601,7 +4657,7 @@ div.loading .wrapper img{
         margin-bottom: 0;
     }
     .Instructors-page {
-        padding: 90px 0 95px;
+        padding: 0px;
     }
     .Instructors-page-slider {
         padding: 120px 0 0;
