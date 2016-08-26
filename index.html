@@ -2,602 +2,664 @@
 <html class="no-js" lang="">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>LogisticPlus-edu</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>LogisticPlus-edu</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <!-- Place favicon.ico in the root directory -->
-    <link rel="icon" type="image/png" href="favicon.png">
+	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+	<!-- Place favicon.ico in the root directory -->
+	<link rel="icon" type="image/png" href="favicon.png">
 
-    <link rel="stylesheet" href="css/vendor/ionicons.min.css">
-    <link rel="stylesheet" href="css/vendor/animate.min.css">
-    <link rel="stylesheet" href="css/vendor/mislider.css">
-    <link rel="stylesheet" href="css/vendor/mislider-skin-cameo.css">
-    <link rel="stylesheet" href="css/vendor/owl.transitions.css">
-    <link rel="stylesheet" href="css/vendor/owl.carousel.css">
-    <link rel="stylesheet" href="css/vendor/font-awesome.min.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/main.css">
-    <script src="js/vendor/modernizr.js"></script>
+	<link rel="stylesheet" href="css/vendor/ionicons.min.css">
+	<link rel="stylesheet" href="css/vendor/animate.min.css">
+	<link rel="stylesheet" href="css/vendor/mislider.css">
+	<link rel="stylesheet" href="css/vendor/mislider-skin-cameo.css">
+	<link rel="stylesheet" href="css/vendor/owl.transitions.css">
+	<link rel="stylesheet" href="css/vendor/owl.carousel.css">
+	<link rel="stylesheet" href="css/vendor/font-awesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/main.css">
+	<script src="js/vendor/modernizr.js"></script>
 </head>
 
 <body>
-    <div class="loading">
-        <div class="wrapper">
-            <img src="img/logisticsplus_logo.png">
-            <!-- <div class="cssload-loader"></div> -->
-        </div>
-    </div>
+	<div class="loading">
+		<div class="wrapper">
+			<img src="img/logisticsplus_logo1.png">
+			<!-- <div class="cssload-loader"></div> -->
+		</div>
+	</div>
 
-    <!-- Login Option 
-    =================-->
-    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginLabel">
-        <div class="modal-dialog popup-content-LI" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
-                    </button>
-                    <div class="logo_login-popup col-md-12">
-                    	<img class="img-responsive" src="img/logisticsplus_logo.png" alt="">
-                    </div>
-                </div>
-                <div class="modal-body">
-                    <form id="login" method="post" action="#" class="input_login-forms row">
+	<!-- Login Option 
+	=================-->
+	<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginLabel">
+		<div class="modal-dialog popup-content-LI" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+					</button>
+					<div class="logo_login-popup col-md-12">
+						<img class="img-responsive" src="img/logisticsplus_logo.svg" alt="">
+					</div>
+				</div>
+				<div class="modal-body">
+					<form id="login" method="post" action="#" class="input_login-forms row">
 
-                        <div class="col-md-12">
-                            <input class="login-input" type="text" autocapitalize="off" autocorrect="off" / placeholder="USERNAME">
-                        </div>
-                        <div class="col-md-12">
-                            <input class="login-input" required name="login[password]" type="password" placeholder="PASSWORD" />
+						<div class="col-md-12">
+							<input class="login-input" type="text" autocapitalize="off" autocorrect="off" / placeholder="USERNAME">
+						</div>
+						<div class="col-md-12">
+							<input class="login-input" required name="login[password]" type="password" placeholder="PASSWORD" />
  <!--                            <div class="hide-show">
-                                <span><i class="fa fa-eye fa-2x" aria-hidden="true"></i></span>
-                            </div> -->
-                        </div>
+								<span><i class="fa fa-eye fa-2x" aria-hidden="true"></i></span>
+							</div> -->
+						</div>
 
-                    </form>
-                </div>
-                <div class="modal-footer">
-                    <button class="rex-bottom-medium rex-btn-icon">
-                        <span class="rex-btn-text">Login</span>
-                        <span class="rex-btn-text-icon"><i class="fa fa-arrow-circle-o-right"></i></span>
-                    </button>
-                </div>
-            </div>
-        </div>
-    </div>
+					</form>
+				</div>
+				<div class="modal-footer">
+					<button class="rex-bottom-medium rex-btn-icon">
+						<span class="rex-btn-text">Login</span>
+						<span class="rex-btn-text-icon"><i class="fa fa-arrow-circle-o-right"></i></span>
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
 
-    <main class="rex-main-content">
+	<main class="rex-main-content">
 
-        <!-- Navigation Html
+		<!-- Navigation Html
 		=================== -->
-        <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-            <div class="container">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a href="index.html">
-                        <img class="img-responsive" src="img/logisticsplus_logo.png" alt="">
-                    </a>
-                </div>
+		<nav id="mainNav" class="navbar navbar-default navbar-fixed-top top-navigationbar">
+			<div class="container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<div class="navigationbar-logo">
+						<a href="index.html">
+							<img class="img-responsive" src="img/logisticsplus_logo1.png" alt="">
+						</a>
+					</div>
+				</div>
 
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right navigation_height">
-                        <li>
-                            <a class="active" href="index.html">HOME</a>
-                        </li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">COURSES</a>
-                            <ul class="dropdown-menu">
-                                <li><a href="embedded-details.html">Embedded Systems</a>
-                                </li>
-                                <li><a href="backend-details.html">Back-End</a>
-                                </li>
-                                <li><a href="frontend-details.html">Front-End</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#teamid">TEAM</a>
-                        </li>
-                        <li>
-                            <a href="#contact">CONTACT</a>
-                        </li>
-                        <li>
-                            <a href="#" data-toggle="modal" data-target="#loginModal" data-whatever="@mdo"><i class="fa fa-lock"></i> LOG IN </a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- /.navbar-collapse -->
-            </div>
-            <!-- /.container -->
-        </nav>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right navigation_height">
+						<li>
+							<a class="active" href="index.html">HOME</a>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">COURSES</a>
+							<ul class="dropdown-menu">
+								<li><a href="embedded-details.html">Embedded Systems</a>
+								</li>
+								<li><a href="backend-details.html">Back-End</a>
+								</li>
+								<li><a href="frontend-details.html">Front-End</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#teamid">TEAM</a>
+						</li>
+						<li>
+							<a href="#contact">CONTACT</a>
+						</li>
+						<li>
+							<a href="#" data-toggle="modal" data-target="#loginModal" data-whatever="@mdo"><i class="fa fa-lock"></i> LOG IN </a>
+						</li>
+					</ul>
+				</div>
+				<!-- /.navbar-collapse -->
+			</div>
+			<!-- /.container -->
+		</nav>
 
 
-        <!-- Slider Html 
+		<!-- Slider Html 
 		====================-->
-        <div class="silder">
-            <div class="rex-slider">
+		<div class="silder">
+			<div class="rex-slider">
 
-                <!-- slider 1 -->
-                <div class="slide-list" data-lazy-background="img/technology-computer-chips-gigabyte2.jpg">
-                    <h1 data-pos="['0', '0']" data-duration="1000" data-effect="fadein">
+				<!-- slider 1 -->
+				<div class="slide-list" data-lazy-background="img/technology-computer-chips-gigabyte2.jpg">
+					<h1 data-pos="['0', '0']" data-duration="1000" data-effect="fadein">
 					<span class="highlight-text">LEARN FROM THE BEST. </span>
 					ANYTIME. ANYWHERE.
 				</h1>
-                    <div class="slider-text" data-pos="['0', '0']" data-duration="700" data-effect="fadein">
-                        <p>Advance and build on existing skills with our
-                            <br> Professional Development programs</p>
-                    </div>
-                    <div class="slider-btn" data-pos="['0', '0']" data-duration="700" data-effect="fadein">
-                        <a href="#" target="_self" class="rex-bottom-medium rex-btn-icon">
-                            <span class="rex-btn-text">learn more</span>
-                            <span class="rex-btn-text-icon"><i class="fa fa-arrow-circle-o-right"></i></span>
-                        </a>
-                    </div>
-                </div>
+					<div class="slider-text" data-pos="['0', '0']" data-duration="700" data-effect="fadein">
+						<p>Advance and build on existing skills with our
+							<br> Professional Development programs</p>
+					</div>
+					<div class="slider-btn" data-pos="['0', '0']" data-duration="700" data-effect="fadein">
+						<a href="#" target="_self" class="rex-bottom-medium rex-btn-icon">
+							<span class="rex-btn-text">learn more</span>
+							<span class="rex-btn-text-icon"><i class="fa fa-arrow-circle-o-right"></i></span>
+						</a>
+					</div>
+				</div>
 
-                <!-- slider 2 -->
-                <div class="slide-list slide-center" data-lazy-background="img/startup-photos12.jpg">
-                    <h1 data-pos="['0', '0']" data-duration="1000" data-effect="fadein">
+				<!-- slider 2 -->
+				<div class="slide-list slide-center" data-lazy-background="img/startup-photos12.jpg">
+					<h1 data-pos="['0', '0']" data-duration="1000" data-effect="fadein">
 					<span class="highlight-text">getting started </span><br>
 					improve your skills
 				</h1>
-                    <div class="slider-btn" data-pos="['0', '0']" data-duration="700" data-effect="fadein">
-                        <a href="#" target="_self" class="rex-bottom-medium rex-btn-icon">
-                            <span class="rex-btn-text">Check out</span>
-                            <span class="rex-btn-text-icon"><i class="fa fa-arrow-circle-o-right"></i></span>
-                        </a>
-                    </div>
-                </div>
+					<div class="slider-btn" data-pos="['0', '0']" data-duration="700" data-effect="fadein">
+						<a href="#" target="_self" class="rex-bottom-medium rex-btn-icon">
+							<span class="rex-btn-text">Check out</span>
+							<span class="rex-btn-text-icon"><i class="fa fa-arrow-circle-o-right"></i></span>
+						</a>
+					</div>
+				</div>
 
-                <!-- slider 3 -->
-                <div class="slide-list slider-last-child" data-lazy-background="img/shutterstock_3365600152.jpg">
-                    <h1 data-pos="['0', '0']" data-duration="1000" data-effect="fadein">
+				<!-- slider 3 -->
+				<div class="slide-list slider-last-child" data-lazy-background="img/shutterstock_3365600152.jpg">
+					<h1 data-pos="['0', '0']" data-duration="1000" data-effect="fadein">
 					Online course
 				</h1>
-                    <div class="slider-text" data-pos="['0', '0']" data-duration="700" data-effect="fadein">
-                        <p>Start a creative and exciting career with
-                            <br> our online programs</p>
-                    </div>
-                    <div class="slider-btn" data-pos="['0', '0']" data-duration="700" data-effect="fadein">
-                        <a href="#" target="_self" class="rex-bottom-medium rex-btn-icon">
-                            <span class="rex-btn-text">learn more</span>
-                            <span class="rex-btn-text-icon"><i class="fa fa-arrow-circle-o-right"></i></span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
+					<div class="slider-text" data-pos="['0', '0']" data-duration="700" data-effect="fadein">
+						<p>Start a creative and exciting career with
+							<br> our online programs</p>
+					</div>
+					<div class="slider-btn" data-pos="['0', '0']" data-duration="700" data-effect="fadein">
+						<a href="#" target="_self" class="rex-bottom-medium rex-btn-icon">
+							<span class="rex-btn-text">learn more</span>
+							<span class="rex-btn-text-icon"><i class="fa fa-arrow-circle-o-right"></i></span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
 
 
 
-        <!-- popular_courses html 
+		<!-- popular_courses html 
 		====================-->
-        <section class="popular_courses">
-            <div class="container">
-                <div class="row">
-                    <div class="title-section col-md-12">
-                        <h2>Popular Course</h2>
-                        <p>Starting Soon</p>
-                    </div>
-                    <div class="col-md-12">
-                        <div id="popular_courses" class="owl-carousel">
-                            <div>
-                                <div class="col-md-12">
-                                    <div class="block-content">
-                                        <div class="courses-img">
-                                            <img class="img-responsive" src="img/high-speed2.jpg" alt="">
-                                            <div class="courses-overlay">
-                                                <a href="embedded-details.html"><h6>MORE</h6></a>
-                                            </div>
-                                        </div>
-                                        <div class="content">
-                                            <a href="single-courses.html"><h6>Embedded Systems</h6></a>
-                                            <div class="entry-meta">
-                                                <div class="author">
-                                                    <p>By <a href="#">Logistics Plus</a>
-                                                    </p>
-                                                </div>
-                                                <div class="date">
-                                                    <p>Starts: Oct 03, 2016</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div>
-                                <div class="col-md-12">
-                                    <div class="block-content">
-                                        <div class="courses-img">
-                                            <img class="img-responsive" src="img/codecode.jpg" alt="">
-                                            <div class="courses-overlay">
-                                                <a href="backend-details.html"><h6>MORE</h6></a>
-                                            </div>
-                                        </div>
-                                        <div class="content">
-                                            <a href="single-courses.html"><h6>BackEnd Development<span class="label label-primary">NEW</span></h6></a>
-                                            <div class="entry-meta">
-                                                <div class="author">
-                                                    <p>By <a href="#">John Guttag</a>
-                                                    </p>
-                                                </div>
-                                                <div class="date">
-                                                    <p>Starts: Oct 12, 2016</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div>
-                                <div class="col-md-12">
-                                    <div class="block-content">
-                                        <div class="courses-img">
-                                            <img class="img-responsive" src="img/css3-code.jpg" alt="">
-                                            <div class="courses-overlay">
-                                                <a href="frontend-details.html"><h6>MORE</h6></a>
-                                            </div>
-                                        </div>
-                                        <div class="content">
-                                            <a href="single-courses.html"><h6>FrontEnd Development <span class="label label-primary">NEW</span></h6></a>
-                                            <div class="entry-meta">
-                                                <div class="author">
-                                                    <p>By <a href="#">Logistics Plus</a>
-                                                    </p>
-                                                </div>
-                                                <div class="date">
-                                                    <p>Starts: Oct 13, 2016</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+		<section class="popular_courses">
+			<div class="container">
+				<div class="row">
+					<div class="title-section col-md-12">
+						<h2>Popular Course</h2>
+						<p>Starting Soon</p>
+					</div>
+					<div class="col-md-12">
+						<div id="popular_courses" class="owl-carousel">
+							<div>
+								<div class="col-md-12">
+									<div class="block-content">
+										<div class="courses-img">
+											<img class="img-responsive" src="img/high-speed2.jpg" alt="">
+											<div class="courses-overlay">
+												<a href="embedded-details.html"><h6>MORE</h6></a>
+											</div>
+										</div>
+										<div class="content">
+											<a href="single-courses.html"><h6>Embedded Systems</h6></a>
+											<div class="entry-meta">
+												<div class="author">
+													<p>By <a href="#">Logistics Plus</a>
+													</p>
+												</div>
+												<div class="date">
+													<p>Starts: Oct 03, 2016</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div>
+								<div class="col-md-12">
+									<div class="block-content">
+										<div class="courses-img">
+											<img class="img-responsive" src="img/codecode.jpg" alt="">
+											<div class="courses-overlay">
+												<a href="backend-details.html"><h6>MORE</h6></a>
+											</div>
+										</div>
+										<div class="content">
+											<a href="single-courses.html"><h6>BackEnd Development<span class="label label-primary">NEW</span></h6></a>
+											<div class="entry-meta">
+												<div class="author">
+													<p>By <a href="#">John Guttag</a>
+													</p>
+												</div>
+												<div class="date">
+													<p>Starts: Oct 12, 2016</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div>
+								<div class="col-md-12">
+									<div class="block-content">
+										<div class="courses-img">
+											<img class="img-responsive" src="img/css3-code.jpg" alt="">
+											<div class="courses-overlay">
+												<a href="frontend-details.html"><h6>MORE</h6></a>
+											</div>
+										</div>
+										<div class="content">
+											<a href="single-courses.html"><h6>FrontEnd Development <span class="label label-primary">NEW</span></h6></a>
+											<div class="entry-meta">
+												<div class="author">
+													<p>By <a href="#">Logistics Plus</a>
+													</p>
+												</div>
+												<div class="date">
+													<p>Starts: Oct 13, 2016</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-        <!-- Insturctors and Team 
+		<!-- Insturctors and Team 
 		===================-->
-        <div class="container" id="teamid">
-            <div class="title-section col-md-12">
-                <h2>Our Team</h2>
-                <p></p>
-            </div>
-        </div>
-        <section class="Instructors Instructors-page">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="block-content">
-                            <img class="img-responsive" src="img/prof1.jpg" alt="">
-                            <div class="content img-profile__panel">
-                                <div class="content-title">
-                                    <h4>Simon Thomas </h4>
-                                    <span>Medicine Physician</span>
-                                </div>
-                                <div class="content-text">
-                                    <p>Lorem ipsum dolor sit amet, consectetur</p>
-                                </div>
-                                <div class="main clearfix">
-                                    <div class="column">
-                                        <div class="md-trigger more-informations" data-modal="modal-1">More</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="block-content">
-                            <img class="img-responsive" src="img/prof2.jpg" alt="">
-                            <div class="content img-profile__panel">
-                                <div class="content-title">
-                                    <h4>Steven Blair </h4>
-                                    <span>Medicine Physician</span>
-                                </div>
-                                <div class="content-text">
-                                    <p>Lorem ipsum dolor sit amet, consectetur</p>
-                                </div>
-                                <div class="main clearfix">
-                                    <div class="column">
-                                        <div class="md-trigger more-informations" data-modal="modal-2">More</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="block-content">
-                            <img class="img-responsive" src="img/prof3.jpg" alt="">
-                            <div class="content img-profile__panel">
-                                <div class="content-title">
-                                    <h4>Mark Blair</h4>
-                                    <span>Medicine Physician</span>
-                                </div>
-                                <div class="content-text">
-                                    <p>Lorem ipsum dolor sit amet, consectetur</p>
-                                </div>
-                                <div class="main clearfix">
-                                    <div class="column">
-                                        <div class="md-trigger more-informations" data-modal="modal-3">More</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="block-content">
-                            <img class="img-responsive" src="img/prof4.jpg" alt="">
-                            <div class="content img-profile__panel">
-                                <div class="content-title">
-                                    <h4>Rilind Pozhegu</h4>
-                                    <span>Medicine Physician</span>
-                                </div>
-                                <div class="content-text">
-                                    <p>Lorem ipsum dolor sit amet, consectetur</p>
-                                </div>
-                                <div class="main clearfix">
-                                    <div class="column">
-                                        <div class="md-trigger more-informations" data-modal="modal-4">More</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+		<div class="container" id="teamid">
+			<div class="title-section col-md-12">
+				<h2>Our Team</h2>
+				<p></p>
+			</div>
+		</div>
 
-        <!-- Instructor More information btn and popup's  -->
+		<section class="president">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 president-content president-lp__content">
+						<div class="col-md-3">
+							<img class="img-responsive" src="img/prof3.jpg" alt="">
+						</div>
+						<div class="col-md-9 content-text">
+							<div class="president-title team-presindet__text">
+								<h3>Sander Kersten</h3>
+								<span>President, Edurex</span>
+								<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem 
+								quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate 
+								cursus a sit amet mauris. Morbi accumsan </p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>    
 
-        <!-- Popup nr1 -->
-        <div class="md-modal md-effect-12" id="modal-1">
-            <div class="md-content">
-                <div class="row">
-                    <div class="md-close col-md-12 "><span>X</span>
-                    </div>
-                    <div class="col-md-12 president-content">
-                        <div class="col-md-3">
-                            <img class="img-responsive" src="img/prof1.jpg" alt="">
-                        </div>
-                        <div class="col-md-9 content-text">
-                            <div class="president-title">
-                                <h3>Sander Kersten</h3>
-                                <span>President, Biography</span>
-                                <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="md-overlay"></div>
-        <!-- the overlay element -->
+		<section class="Instructors Instructors-page">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-2 col-xs-6">
+						<div class="block-content">
+							<img class="img-responsive" src="img/prof1.jpg" alt="">
+							<div class="content img-profile__panel">
+								<div class="content-title">
+									<h4>Simon Thomas </h4>
+									<span>Medicine Physician</span>
+								</div>
+								<div class="content-text">
+									<!-- <p>Lorem ipsum dolor sit amet, consectetur</p> -->
+								</div>
+								<div class="main clearfix">
+									<div class="column">
+										<div class="md-trigger more-informations" data-modal="modal-1">More</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-2 col-xs-6">
+						<div class="block-content">
+							<img class="img-responsive" src="img/prof2.jpg" alt="">
+							<div class="content img-profile__panel">
+								<div class="content-title">
+									<h4>Steven Blair </h4>
+									<span>Medicine Physician</span>
+								</div>
+								<div class="content-text">
+									<!-- <p>Lorem ipsum dolor sit amet, consectetur</p> -->
+								</div>
+								<div class="main clearfix">
+									<div class="column">
+										<div class="md-trigger more-informations" data-modal="modal-2">More</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-2 col-xs-6">
+						<div class="block-content">
+							<img class="img-responsive" src="img/prof3.jpg" alt="">
+							<div class="content img-profile__panel">
+								<div class="content-title">
+									<h4>Mark Blair</h4>
+									<span>Medicine Physician</span>
+								</div>
+								<div class="content-text">
+									<!-- <p>Lorem ipsum dolor sit amet, consectetur</p> -->
+								</div>
+								<div class="main clearfix">
+									<div class="column">
+										<div class="md-trigger more-informations" data-modal="modal-3">More</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-2 col-xs-6">
+						<div class="block-content">
+							<img class="img-responsive" src="img/prof4.jpg" alt="">
+							<div class="content img-profile__panel">
+								<div class="content-title">
+									<h4>Rilind Pozhegu</h4>
+									<span>Medicine Physician</span>
+								</div>
+								<div class="content-text">
+									<!-- <p>Lorem ipsum dolor sit amet, consectetur</p> -->
+								</div>
+								<div class="main clearfix">
+									<div class="column">
+										<div class="md-trigger more-informations" data-modal="modal-4">More</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-2 col-xs-6">
+						<div class="block-content">
+							<img class="img-responsive" src="img/prof4.jpg" alt="">
+							<div class="content img-profile__panel">
+								<div class="content-title">
+									<h4>Rilind Pozhegu</h4>
+									<span>Medicine Physician</span>
+								</div>
+								<div class="content-text">
+									<!-- <p>Lorem ipsum dolor sit amet, consectetur</p> -->
+								</div>
+								<div class="main clearfix">
+									<div class="column">
+										<div class="md-trigger more-informations" data-modal="modal-4">More</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-2 col-xs-6">
+						<div class="block-content">
+							<img class="img-responsive" src="img/prof4.jpg" alt="">
+							<div class="content img-profile__panel">
+								<div class="content-title">
+									<h4>Rilind Pozhegu</h4>
+									<span>Medicine Physician</span>
+								</div>
+								<div class="content-text">
+									<!-- <p>Lorem ipsum dolor sit amet, consectetur</p> -->
+								</div>
+								<div class="main clearfix">
+									<div class="column">
+										<div class="md-trigger more-informations" data-modal="modal-4">More</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-        <!-- Popup nr2 -->
-        <div class="md-modal md-effect-12" id="modal-2">
-            <div class="md-content">
-                <div class="row">
-                    <div class="md-close col-md-12 "><span>X</span>
-                    </div>
-                    <div class="col-md-12 president-content">
-                        <div class="col-md-3">
-                            <img class="img-responsive" src="img/prof2.jpg" alt="">
-                        </div>
-                        <div class="col-md-9 content-text">
-                            <div class="president-title">
-                                <h3>Sander Kersten</h3>
-                                <span>President, Edurex</span>
-                                <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="md-overlay"></div>
-        <!-- the overlay element -->
+		<!-- Instructor More information btn and popup's  -->
 
-        <!-- Popup nr3 -->
-        <div class="md-modal md-effect-12" id="modal-3">
-            <div class="md-content">
-                <div class="row">
-                    <div class="md-close col-md-12 "><span>X</span>
-                    </div>
-                    <div class="col-md-12 president-content">
-                        <div class="col-md-3">
-                            <img class="img-responsive" src="img/prof3.jpg" alt="">
-                        </div>
-                        <div class="col-md-9 content-text">
-                            <div class="president-title">
-                                <h3>Sander Kersten</h3>
-                                <span>President, Edurex</span>
-                                <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="md-overlay"></div>
-        <!-- the overlay element -->
+		<!-- Popup nr1 -->
+		<div class="md-modal md-effect-12" id="modal-1">
+			<div class="md-content">
+				<div class="row">
+					<div class="md-close col-md-12 "><span>X</span>
+					</div>
+					<div class="col-md-12 president-content">
+						<div class="col-md-3">
+							<img class="img-responsive" src="img/prof1.jpg" alt="">
+						</div>
+						<div class="col-md-9 content-text">
+							<div class="president-title">
+								<h3>Sander Kersten</h3>
+								<span>President, Biography</span>
+								<p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan </p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="md-overlay"></div>
+		<!-- the overlay element -->
 
-        <!-- Popup nr4 -->
-        <div class="md-modal md-effect-12" id="modal-4">
-            <div class="md-content">
-                <div class="row">
-                    <div class="md-close col-md-12 "><span>X</span>
-                    </div>
-                    <div class="col-md-12 president-content">
-                        <div class="col-md-3">
-                            <img class="img-responsive" src="img/prof4.jpg" alt="">
-                        </div>
-                        <div class="col-md-9 content-text">
-                            <div class="president-title">
-                                <h3>Sander Kersten</h3>
-                                <span>President, Edurex</span>
-                                <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="md-overlay"></div>
-        <!-- the overlay element -->
+		<!-- Popup nr2 -->
+		<div class="md-modal md-effect-12" id="modal-2">
+			<div class="md-content">
+				<div class="row">
+					<div class="md-close col-md-12 "><span>X</span>
+					</div>
+					<div class="col-md-12 president-content">
+						<div class="col-md-3">
+							<img class="img-responsive" src="img/prof2.jpg" alt="">
+						</div>
+						<div class="col-md-9 content-text">
+							<div class="president-title">
+								<h3>Sander Kersten</h3>
+								<span>President, Edurex</span>
+								<p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan </p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="md-overlay"></div>
+		<!-- the overlay element -->
+
+		<!-- Popup nr3 -->
+		<div class="md-modal md-effect-12" id="modal-3">
+			<div class="md-content">
+				<div class="row">
+					<div class="md-close col-md-12 "><span>X</span>
+					</div>
+					<div class="col-md-12 president-content">
+						<div class="col-md-3">
+							<img class="img-responsive" src="img/prof3.jpg" alt="">
+						</div>
+						<div class="col-md-9 content-text">
+							<div class="president-title">
+								<h3>Sander Kersten</h3>
+								<span>President, Edurex</span>
+								<p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan </p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="md-overlay"></div>
+		<!-- the overlay element -->
+
+		<!-- Popup nr4 -->
+		<div class="md-modal md-effect-12" id="modal-4">
+			<div class="md-content">
+				<div class="row">
+					<div class="md-close col-md-12 "><span>X</span>
+					</div>
+					<div class="col-md-12 president-content">
+						<div class="col-md-3">
+							<img class="img-responsive" src="img/prof4.jpg" alt="">
+						</div>
+						<div class="col-md-9 content-text">
+							<div class="president-title">
+								<h3>Sander Kersten</h3>
+								<span>President, Edurex</span>
+								<p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan </p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="md-overlay"></div>
+		<!-- the overlay element -->
 
 
-        <!-- Testimonials html 
+		<!-- Testimonials html 
 ====================-->
-        <section class="testimonials">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="title-section">
-                            <h2>Testimonials</h2>
-                            <p>What Our Students Say About us</p>
-                        </div>
-                    </div>
-                    <div class="col-md-12">
-                        <div id="testimonials" class="owl-carousel">
-                            <div>
-                                <div class="media">
-                                    <div class="media-left testimonials-img col-md-4">
-                                        <img class="media-object testimonial-author" src="http://placehold.it/96x96" alt="...">
-                                        <h5>Denis Wolf</h5>
-                                        <span>Student Of System Information</span>
-                                    </div>
+		<section class="testimonials">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="title-section">
+							<h2>Testimonials</h2>
+							<p>What Our Students Say About us</p>
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div id="testimonials" class="owl-carousel">
+							<div>
+								<div class="media">
+									<div class="media-left testimonials-img col-md-4">
+										<img class="media-object testimonial-author" src="http://placehold.it/96x96" alt="...">
+										<h5>Denis Wolf</h5>
+										<span>Student Of System Information</span>
+									</div>
 
-                                    <div class="media-body  testimonials-body">
-                                        <p>"Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis es eligendi optio cumque nihil impedid quo minus id quos maxime placeat facere possimus, omnis vo eligendi optio cumque nihil impedid quo minus id quos maxime placeat facere possimus, omnis vo luptas assumenda est, omnis dolor repellendus."</p>
-                                    </div>
-                                </div>
-                            </div>
+									<div class="media-body  testimonials-body">
+										<p>"Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis es eligendi optio cumque nihil impedid quo minus id quos maxime placeat facere possimus, omnis vo eligendi optio cumque nihil impedid quo minus id quos maxime placeat facere possimus, omnis vo luptas assumenda est, omnis dolor repellendus."</p>
+									</div>
+								</div>
+							</div>
 
-                            <div>
-                                <div class="media">
-                                    <div class="media-left testimonials-img col-md-4">
-                                        <img class="media-object testimonial-author" src="http://placehold.it/96x96" alt="...">
-                                        <h5>Kai Green</h5>
-                                        <span>Student from USA</span>
-                                    </div>
-                                    <div class="media-body  testimonials-body">
-                                        <p>"Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis es eligendi optio cumque nihil impedid quo minus id quos maxime placeat facere possimus, omnis vo eligendi optio cumque nihil impedid quo minus id quos maxime placeat facere possimus, omnis vo luptas assumenda est, omnis dolor repellendus."</p>
-                                    </div>
-                                </div>
-                            </div>
+							<div>
+								<div class="media">
+									<div class="media-left testimonials-img col-md-4">
+										<img class="media-object testimonial-author" src="http://placehold.it/96x96" alt="...">
+										<h5>Kai Green</h5>
+										<span>Student from USA</span>
+									</div>
+									<div class="media-body  testimonials-body">
+										<p>"Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis es eligendi optio cumque nihil impedid quo minus id quos maxime placeat facere possimus, omnis vo eligendi optio cumque nihil impedid quo minus id quos maxime placeat facere possimus, omnis vo luptas assumenda est, omnis dolor repellendus."</p>
+									</div>
+								</div>
+							</div>
 
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-        <div class="map-container">
-            <div style="overflow:hidden;width:100%;height:350px;resize:none;max-width:100%;">
-                <div id="google-maps-display" style="height:100%; width:100%;max-width:100%;">
-                    <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Logistics+PLUS,+Rexhep+Krasniqi,+Prishtina&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe>
-                </div>
-            </div>
-        </div>
+		<div class="map-container">
+			<div style="overflow:hidden;width:100%;height:350px;resize:none;max-width:100%;">
+				<div id="google-maps-display" style="height:100%; width:100%;max-width:100%;">
+					<iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Logistics+PLUS,+Rexhep+Krasniqi,+Prishtina&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe>
+				</div>
+			</div>
+		</div>
 
-        <!-- footer section
+		<!-- footer section
 ==================== -->
-        <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 footer-section">
-                        <div class="footer-description">
-                            <img src="img/logo e bardh logistics.png" alt="">
-                            <p>It is a long established fact that a
-                                <br> reader will be distracted by the readable content of a page when looking at its.</p>
-                            <div class="instructors-media-link">
-                                <a data-toggle="tooltip" data-placement="top" title="" href="https://www.facebook.com/" data-original-title="Go facebook Profile"><i class="fa fa-facebook"></i></a>
-                                <a data-toggle="tooltip" data-placement="top" title="" href="https://twitter.com/" data-original-title="Go twitter Profile"><i class="fa fa-twitter"></i></a>
-                                <a data-toggle="tooltip" data-placement="top" title="" href="https://plus.google.com/" data-original-title="Go Google plus Profile"><i class="fa fa-google-plus"></i></a>
-                                <a data-toggle="tooltip" data-placement="top" title="" href="https://www.linkedin.com/" data-original-title="Go linkedin Profile"><i class="fa fa-linkedin"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 footer-section" id="contact">
-                        <h3>Contact</h3>
-                        <div class="address">
-                            <div class="office">
-                                <h6>office</h6>
-                                <p>St, Rexhep Krasniqi
-                                    <br> Prishtine
-                                </p>
-                            </div>
-                            <div class="phone">
-                                <h6>phone</h6>
-                                <div class="phone-number">
-                                    <a href="tel:00123456789">+386 49 148 282</a>
-                                    <br>
-                                    <a href="tel:00123456789">+377 44 255 193</a>
-                                </div>
-                            </div>
-                            <h6>email</h6>
-                            <a class="email-add" href="mailto:info@logisticsplus-ks.com"></a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 footer-section">
-                        <h3>About Us</h3>
-                        <ul class="usefull-link">
-                            <li><a href="#">Latest Courses</a>
-                            </li>
-                            <li><a href="#">Courses Categories</a>
-                            </li>
-                            <li><a href="#">Teachers &#38; Staff</a>
-                            </li>
-                            <li><a href="#">Who We Are</a>
-                            </li>
-                            <li><a href="#">Get In Touch</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="row copyright">
-                    <div class="col-md-12">
-                        <p>Copyright &copy; 2016 Edurex | All Right Reserved | <a href="#">Privacy Policy</a> | <a href="#"> Terms of Use</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            </div>
-        </footer>
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 footer-section">
+						<div class="footer-description">
+							<img src="img/logo e bardh logistics.png" alt="">
+							<p>It is a long established fact that a
+								<br> reader will be distracted by the readable content of a page when looking at its.</p>
+							<div class="instructors-media-link">
+								<a data-toggle="tooltip" data-placement="top" title="" href="https://www.facebook.com/" data-original-title="Go facebook Profile"><i class="fa fa-facebook"></i></a>
+								<a data-toggle="tooltip" data-placement="top" title="" href="https://twitter.com/" data-original-title="Go twitter Profile"><i class="fa fa-twitter"></i></a>
+								<a data-toggle="tooltip" data-placement="top" title="" href="https://plus.google.com/" data-original-title="Go Google plus Profile"><i class="fa fa-google-plus"></i></a>
+								<a data-toggle="tooltip" data-placement="top" title="" href="https://www.linkedin.com/" data-original-title="Go linkedin Profile"><i class="fa fa-linkedin"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 footer-section" id="contact">
+						<h3>Contact</h3>
+						<div class="address">
+							<div class="office">
+								<h6>office</h6>
+								<p>St, Rexhep Krasniqi
+									<br> Prishtine
+								</p>
+							</div>
+							<div class="phone">
+								<h6>phone</h6>
+								<div class="phone-number">
+									<a href="tel:00123456789">+386 49 148 282</a>
+									<br>
+									<a href="tel:00123456789">+377 44 255 193</a>
+								</div>
+							</div>
+							<h6>email</h6>
+							<a class="email-add" href="mailto:info@logisticsplus-ks.com"></a>
+						</div>
+					</div>
+					<div class="col-md-4 footer-section">
+						<h3>About Us</h3>
+						<ul class="usefull-link">
+							<li><a href="#">Latest Courses</a>
+							</li>
+							<li><a href="#">Courses Categories</a>
+							</li>
+							<li><a href="#">Teachers &#38; Staff</a>
+							</li>
+							<li><a href="#">Who We Are</a>
+							</li>
+							<li><a href="#">Get In Touch</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="row copyright">
+					<div class="col-md-12">
+						<p>Copyright &copy; 2016 Edurex | All Right Reserved | <a href="#">Privacy Policy</a> | <a href="#"> Terms of Use</a>
+						</p>
+					</div>
+				</div>
+			</div>
+			</div>
+		</footer>
 
-        <script src="js/vendor/jquery.min.js"></script>
-        <script src="js/vendor/bootstrap.min.js"></script>
-        <script src="js/vendor/jquery.counterup.min.js"></script>
-        <script src="js/vendor/parallax.js"></script>
-        <script src="js/vendor/waypoints.min.js"></script>
-        <script src="js/vendor/mislider.js"></script>
-        <script src="js/vendor/owl.carousel.min.js"></script>
-        <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM"></script>
-        <script src="js/vendor/jquery.devrama.slider.js"></script>
-        <script src="js/vendor/jquery.mobile.custom.min.js"></script>
-        <script src="js/vendor/wow.min.js"></script>
-        <script src="js/vendor/jquery.scrollUp.min.js"></script>
-        <script src="js/script.js"></script>
-        <script src="js/vendor/main.js"></script>
-        <script src="https://www.hostingreviews.website/google-maps-authorization.js?id=9fd62c78-e3aa-1347-991e-07f45b742f5e&c=embedded-map-html&u=1469457472" defer="defer" async="async"></script>
-        <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
-        <script src="//cdn.jsdelivr.net/velocity/1.1.0/velocity.min.js"></script>
-        <script src="script.js"></script>
-        <script src="js/classie.js"></script>
-        <script src="js/modalEffects.js"></script>
+		<script src="js/vendor/jquery.min.js"></script>
+		<script src="js/vendor/bootstrap.min.js"></script>
+		<script src="js/vendor/jquery.counterup.min.js"></script>
+		<script src="js/vendor/parallax.js"></script>
+		<script src="js/vendor/waypoints.min.js"></script>
+		<script src="js/vendor/mislider.js"></script>
+		<script src="js/vendor/owl.carousel.min.js"></script>
+		<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM"></script>
+		<script src="js/vendor/jquery.devrama.slider.js"></script>
+		<script src="js/vendor/jquery.mobile.custom.min.js"></script>
+		<script src="js/vendor/wow.min.js"></script>
+		<script src="js/vendor/jquery.scrollUp.min.js"></script>
+		<script src="js/script.js"></script>
+		<script src="js/vendor/main.js"></script>
+		<script src="https://www.hostingreviews.website/google-maps-authorization.js?id=9fd62c78-e3aa-1347-991e-07f45b742f5e&c=embedded-map-html&u=1469457472" defer="defer" async="async"></script>
+		<script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script src="//cdn.jsdelivr.net/velocity/1.1.0/velocity.min.js"></script>
+		<script src="script.js"></script>
+		<script src="js/classie.js"></script>
+		<script src="js/modalEffects.js"></script>
 </body>
 
 </html>
