@@ -4922,150 +4922,9 @@ panel-group Course Details
   color: black !important;
 }
 
-/*-----------------------*\
-        Popup Team
-\*-----------------------*/
-
-
-.md-modal {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    width: 50%;
-    max-width: 630px;
-    min-width: 320px;
-    height: auto;
-    z-index: 2000;
-    visibility: hidden;
-    -webkit-backface-visibility: hidden;
-    -moz-backface-visibility: hidden;
-    backface-visibility: hidden;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -ms-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
+.team-president__textContent {
+  box-shadow: 0px 2px 6px rgba(232, 232, 232, 0.9);
 }
-
-.md-show {
-    visibility: visible;
-}
-
-.md-overlay {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    visibility: hidden;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-    opacity: 0;
-    background: #70dd5d;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
-}
-
-.md-show ~ .md-overlay {
-    opacity: 1;
-    visibility: visible;
-}
-
-
-
-/*-----------------------*\
-    Effect 12:  Just me 
-\*-----------------------*/
-
-
-
-/**
- * Transoformimi i popupit kur te hapet
- */ 
-
-.md-effect-12 .md-content {
-    -webkit-transform: scale(0.8);
-    -moz-transform: scale(0.8);
-    -ms-transform: scale(0.8);
-    transform: scale(0.8);
-    opacity: 0;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
-}
-
-
-.img-profile__panel {
-  background-color: rgba(255, 255, 255, 0.47) !important;
-}
-
-.more-informations {
-  color: lightgreen;
-  cursor: pointer;
-}
-
-
-
-/**
- * Ngjyrat e backgroundit te popupit
- */
-
-.md-show.md-effect-12 ~ .md-overlay {
-    background: #70dd5d; 
-} 
-
-.md-show.md-effect-12 .md-content {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-    opacity: 1;
-}
-
-.md-close {
-  text-align: right;
-}
-
-.md-close span{
-  color: white;
-  font-size: 26px;
-  font-weight: normal;
-}
-
-.md-close span:hover {
-  color: rgba(255, 255, 255, 0.64);
-  cursor: pointer;
-  transition: all ease-in-out 0.2s;
-}
-
-.president-content img {
-    margin-top: 30px;
-}
-
-.president-title {
-    padding-top: 0px;
-}
-.president-title h3 {
-  text-align: center;
-    color: white;
-    text-transform: uppercase;
-    margin: 0;
-    padding-bottom: 20px;
-    font-weight: normal;
-}
-.president-title span {
-    color: white;
-    font-family: "Montserrat", sans-serif !important;
-    font-weight: 700;
-    text-decoration: underline;
-    font-size: 16px;
-}
-
-.president-title p {
-    color: white;
-    font-size: 15px;
-}
-
-
 
 
 
@@ -5146,8 +5005,8 @@ panel-group Course Details
     width: 100%;
 }
 .overlay-slide-in-left .image-overlay-content {
-    background-image: url(http://www.awwwards.com/awards/images/2015/04/pattern.jpg);
-    background-color: rgba(0, 0, 0, 0.3);
+    /*background: url(../img/logisticplus-logo-background.jpg);*/
+    background-color: white;
     transform: translateX(-110%);
     opacity: 1;
     transition: all 0.4s ease-in-out;
@@ -5250,114 +5109,14 @@ button {
   pointer-events: auto;
 }
 
-/* Content */
-.dialog h2 {
-  margin: 0;
-  font-weight: 400;
-  font-size: 2em;
-  padding: 0 0 2em;
-  margin: 0;
+
+/*-----------------------*\
+      Popup Modal Team
+\*-----------------------*/
+
+.popup-div__team img{
+  width: 110%;
+  margin: 50% auto;
 }
 
 
-
-.dialog--open .dialog__overlay {
-  -webkit-transition-duration: 0.8s;
-  transition-duration: 0.8s;
-}
-
-.dialog--close .dialog__overlay {
-  -webkit-transition-duration: 0.5s;
-  transition-duration: 0.5s;
-}
-
-.dialog__content {
-  padding: 0;
-  background: transparent;
-}
-
-.dialog.dialog--open .dialog__content {
-  opacity: 1;
-}
-
-.morph-shape {
-  position: absolute;
-  width: calc(100% + 4px);
-  height: calc(100% + 4px);
-  top: -2px;
-  left: -2px;
-  z-index: -1;
-}
-
-.morph-shape svg rect {
-  stroke: #fff;
-  stroke-width: 2px;
-  stroke-dasharray: 1680;
-}
-
-.dialog--open .morph-shape svg rect {
-  -webkit-animation: anim-dash 0.6s forwards;
-  animation: anim-dash 0.6s forwards;
-}
-
-.dialog-inner {
-  opacity: 0;
-  background: #fff;
-}
-
-.dialog--open .dialog-inner {
-  padding: 4em;
-  opacity: 1;
-  -webkit-transition: opacity 0.85s 0.35s;
-  transition: opacity 0.85s 0.35s;
-}
-
-.dialog.dialog--open h2 {
-  -webkit-animation: anim-elem-1 0.7s ease-out both;
-  animation: anim-elem-1 0.7s ease-out both;
-}
-
-.dialog.dialog--open button {
-  -webkit-animation: anim-elem-2 0.7s ease-out both;
-  animation: anim-elem-2 0.7s ease-out both;
-}
-
-@keyframes anim-dash {
-  0% {
-    stroke-dashoffset: 1680;
-  }
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@-webkit-keyframes anim-dash {
-  0% {
-    stroke-dashoffset: 1680;
-  }
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-/* Inner elements animations */
-
-@-webkit-keyframes anim-elem-1 {
-  0% { opacity: 0; -webkit-transform: translate3d(-150px, 0, 0); }
-  100% { opacity: 1; -webkit-transform: translate3d(0, 0, 0); }
-}
-
-@keyframes anim-elem-1 {
-  0% { opacity: 0; -webkit-transform: translate3d(-150px, 0, 0); transform: translate3d(-150px, 0, 0); }
-  100% { opacity: 1; -webkit-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); }
-}
-
-@-webkit-keyframes anim-elem-2 {
-  0% { opacity: 0; -webkit-transform: translate3d(150px, 0, 0); }
-  100% { opacity: 1; -webkit-transform: translate3d(0, 0, 0); }
-}
-
-@keyframes anim-elem-2 {
-  0% { opacity: 0; -webkit-transform: translate3d(150px, 0, 0); transform: translate3d(150px, 0, 0); }
-  100% { opacity: 1; -webkit-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); }
-}
