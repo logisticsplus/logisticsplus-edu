@@ -1,6 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>BackEnd Course</title>
@@ -10,7 +11,7 @@
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <!-- Place favicon.ico in the root directory -->
     <link rel="icon" type="image/png" href="favicon.png">
-    
+
     <link rel="stylesheet" href="css/vendor/ionicons.min.css">
     <link rel="stylesheet" href="css/vendor/animate.min.css">
     <link rel="stylesheet" href="css/vendor/mislider.css">
@@ -21,79 +22,80 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/main.css">
     <script src="js/vendor/modernizr.js"></script>
-  </head>
-  <body>
+</head>
 
-<!--   <div class="loading">
+<body>
+
+    <!--   <div class="loading">
     <div class="wrapper">
       <div class="cssload-loader"></div>
     </div>
   </div> -->
 
 
-  <!-- Login Option 
+    <!-- Login Option 
   =================-->
-  <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginLabel">
-    <div class="modal-dialog popup-content-LI" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
-          </button>
-          <div class="logo_login-popup col-md-12">
-            <img class="img-responsive" src="img/logisticsplus_logo.svg" alt="">
-          </div>
-        </div>
-        <div class="modal-body">
-          <form id="login" method="post" action="#" class="input_login-forms row">
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginLabel">
+        <div class="modal-dialog popup-content-LI" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                    </button>
+                    <div class="logo_login-popup col-md-12">
+                        <img class="img-responsive" src="img/logisticsplus_logo.svg" alt="">
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <form id="login" method="post" action="#" class="input_login-forms row">
 
-            <div class="col-md-12">
-              <input class="login-input" type="text" autocapitalize="off" autocorrect="off" / placeholder="USERNAME">
-            </div>
-            <div class="col-md-12">
-              <input class="login-input" required name="login[password]" type="password" placeholder="PASSWORD" />
- <!--                            <div class="hide-show">
+                        <div class="col-md-12">
+                            <input class="login-input" type="text" autocapitalize="off" autocorrect="off" / placeholder="USERNAME">
+                        </div>
+                        <div class="col-md-12">
+                            <input class="login-input" required name="login[password]" type="password" placeholder="PASSWORD" />
+                            <!--                            <div class="hide-show">
                 <span><i class="fa fa-eye fa-2x" aria-hidden="true"></i></span>
               </div> -->
-            </div>
+                        </div>
 
-          </form>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="rex-bottom-medium rex-btn-icon">
+                        <span class="rex-btn-text">Login</span>
+                        <span class="rex-btn-text-icon"><i class="fa fa-arrow-circle-o-right"></i></span>
+                    </button>
+                </div>
+            </div>
         </div>
-        <div class="modal-footer">
-          <button class="rex-bottom-medium rex-btn-icon">
-            <span class="rex-btn-text">Login</span>
-            <span class="rex-btn-text-icon"><i class="fa fa-arrow-circle-o-right"></i></span>
-          </button>
-        </div>
-      </div>
     </div>
-  </div>
 
     <!-- Navigation Html
     =================== -->
     <nav id="mainNav" class="navbar navbar-default top-navigationbar">
-      <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <div class="navigationbar-logo">
-            <a href="index.html">
-              <img class="img-responsive" src="img/Logistics_Plus_Logo-t.png" alt="">
-            </a>
-          </div>
-        </div>
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="navigationbar-logo">
+                    <a href="index.html">
+                        <img class="img-responsive" src="img/Logistics_Plus_Logo-t.png" alt="">
+                    </a>
+                </div>
+            </div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right navigation_height">
-            <li>
-              <a href="index.html">HOME</a>
-            </li>
-<!--             <li class="dropdown">
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right navigation_height">
+                    <li>
+                        <a href="index.html">HOME</a>
+                    </li>
+                    <!--             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">COURSES</a>
               <ul class="dropdown-menu">
                 <li><a href="embedded-details.html">Embedded Systems</a>
@@ -104,267 +106,273 @@
                 </li>
               </ul>
             </li> -->
-            <li>
-              <a href="embedded-details.html">EMBEDDED SYSTEMS</a>
-            </li>
-            <li>
-              <a href="frontend-details.html">FRONT END</a>
-            </li>
-            <li>
-              <a href="#contact">CONTACT</a>
-            </li>
-            <li>
-              <a href="#" data-toggle="modal" data-target="#loginModal" data-whatever="@mdo"><i class="fa fa-lock"></i> LOG IN </a>
-            </li>
-          </ul>
+                    <li>
+                        <a href="embedded-details.html">EMBEDDED SYSTEMS</a>
+                    </li>
+                    <li>
+                        <a href="frontend-details.html">FRONT END</a>
+                    </li>
+                    <li>
+                        <a href="#contact">CONTACT</a>
+                    </li>
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#loginModal" data-whatever="@mdo"><i class="fa fa-lock"></i> LOG IN </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-        <!-- /.navbar-collapse -->
-      </div>
-      <!-- /.container -->
+        <!-- /.container -->
     </nav>
 
-    
 
 
-	<!-- Breadcum section -->
 
-	<section class="breadcum">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<h4>BACK END</h4>
-<!-- 					<div class="pages">
-						<a href="index.html">Home</a> 
-						<span>&#47;</span>
-						<a href="index.html">Courses</a>
-						<span>&#47;</span>
-						<a href="about_page.html">Single Course</a>
-					</div> -->
-				</div>
-			</div>
-		</div>
-	</section>
+    <!-- Breadcum section -->
 
-	<!-- course_detail -->
+    <section class="breadcum">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h4>BACK END</h4>
+                    <!--          <div class="pages">
+            <a href="index.html">Home</a> 
+            <span>&#47;</span>
+            <a href="index.html">Courses</a>
+            <span>&#47;</span>
+            <a href="about_page.html">Single Course</a>
+          </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
 
-	<section class="course_detail">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8">
-					<!-- title section -->
-					<div class="sidebar-title-section">
-						<h2>Introduction to marketing</h2>
-					</div><!-- end -->
+    <!-- course_detail -->
 
-					<!-- Single courses img section -->
-					<div class="single-img">
-						<img class="img-responsive" src="img/man-people-space-desk.jpg" alt="">
-					</div><!-- end -->
+    <section class="course_detail">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <!-- title section -->
+                    <div class="sidebar-title-section">
+                        <h2>Introduction to Back End</h2>
+                    </div>
+                    <!-- end -->
 
-					<!-- description section -->
-					<div class="description">
-						<h4>DESCRIPTION</h4>
-						<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem 
-						auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit ame
-						accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat 
-						Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Null
-						felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermen
-						pharetra, erat sed fermentum feugiat.</p>
-					</div><!-- end -->
+                    <!-- Single courses img section -->
+                    <div class="single-img">
+                        <img class="img-responsive" src="img/man-people-space-desk.jpg" alt="">
+                    </div>
+                    <!-- end -->
 
-					<div class="clearfix"></div>
-				</div>
+                    <!-- description section -->
+                    <div class="description">
+                        <h4>DESCRIPTION</h4>
+                        <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit ame accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Null felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermen pharetra, erat sed fermentum feugiat.</p>
+                    </div>
+                    <!-- end -->
 
-				<div class="col-md-4 info-takecourse">
-					<!-- coures reat -->
-					<div class="course-reating">
-						<a href="#" target="_self" class="rex-bottom-medium rex-btn-icon">
-							<span class="rex-btn-text">Take this course</span>
-							<span class="rex-btn-text-icon btn-text">$45.00</span>
-						</a>
-					</div>
+                    <div class="clearfix"></div>
+                </div>
 
-				    <aside class="widget widget_archive coures-reat">
-				        <ul>
-				            <li><a href="#"><i class="fa fa-clock-o"></i>Length:</a>&nbsp; 9 weeks</li>
-				            <li><a href="#"><i class="fa fa-briefcase"></i>Type:</a>&nbsp; Verified</li>
-				            <li><a href="#"><i class="fa fa-tags"></i>Price:</a>&nbsp; $49</li>
-				            <li><a href="#"><i class="fa fa-comments"></i>Languages:</a>&nbsp;English</li>
-				            <li><a href="#"><i class="fa fa-video-camera"></i>Video :</a>&nbsp;English</li>
-				        </ul>
-				    </aside>
+                <div class="col-md-4 info-takecourse">
+                    <!-- coures reat -->
+                    <div class="course-reating">
+                        <a href="#" target="_self" class="rex-bottom-medium rex-btn-icon">
+                            <span class="rex-btn-text">Take this course</span>
+                            <span class="rex-btn-text-icon btn-text">$45.00</span>
+                        </a>
+                    </div>
 
-					<!-- coures details -->
-					<aside class="widget">
+                    <aside class="widget widget_archive coures-reat">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-clock-o"></i>Length:</a>&nbsp; 9 weeks</li>
+                            <li><a href="#"><i class="fa fa-briefcase"></i>Type:</a>&nbsp; Verified</li>
+                            <li><a href="#"><i class="fa fa-tags"></i>Price:</a>&nbsp; $49</li>
+                            <li><a href="#"><i class="fa fa-comments"></i>Languages:</a>&nbsp;English</li>
+                            <li><a href="#"><i class="fa fa-video-camera"></i>Video :</a>&nbsp;English</li>
+                        </ul>
+                    </aside>
 
-						<h5>instructor</h5>
-						<div class="instructor-content instructor">
-							<div class="instruction-sidbar-img">
-								<img src="http://placehold.it/82x82" alt="">
-							</div>
-							<div class="instruction-sidbar-title">
-								<h6>Simon Thomas</h6>
-								<span>Behavioural Science</span>
-							</div>
-							<div class="instructors-media-link">
-								<a data-toggle="tooltip" data-placement="top" title="Go facebook Profile" href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
-								<a data-toggle="tooltip" data-placement="top" title="Go twitter Profile" href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
-								<a data-toggle="tooltip" data-placement="top" title="Go facebook Profile" href="https://plus.google.com/"><i class="fa fa-google-plus"></i></a>
-								<a data-toggle="tooltip" data-placement="top" title="Go linkedin Profile" href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>
-							</div>
-							<div class="clearfix"></div>
-						</div>
-					</aside>
-				</div>
-			</div>
-		</div>
-	</section>
-</main>  
+                    <!-- coures details -->
+                    <aside class="widget">
 
-<div class="panel-group container" id="accordion" role="tablist" aria-multiselectable="true">
-				<h4>What You'll Learn</h4>
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingOne">
-      <h4 class="panel-title">
+                        <h5>instructor</h5>
+                        <div class="instructor-content instructor">
+                            <div class="instruction-sidbar-img">
+                                <img src="http://placehold.it/82x82" alt="">
+                            </div>
+                            <div class="instruction-sidbar-title">
+                                <h6>Simon Thomas</h6>
+                                <span>Behavioural Science</span>
+                            </div>
+                            <div class="instructors-media-link">
+                                <a data-toggle="tooltip" data-placement="top" title="Go facebook Profile" href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+                                <a data-toggle="tooltip" data-placement="top" title="Go twitter Profile" href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+                                <a data-toggle="tooltip" data-placement="top" title="Go facebook Profile" href="https://plus.google.com/"><i class="fa fa-google-plus"></i></a>
+                                <a data-toggle="tooltip" data-placement="top" title="Go linkedin Profile" href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <div class="panel-group container" id="accordion" role="tablist" aria-multiselectable="true">
+        <h4>What You'll Learn</h4>
+        <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingOne">
+                <h4 class="panel-title">
         <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
           Couse Summ
         </a>
       </h4>
-    </div>
-    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-      <div class="panel-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-      </div>
-    </div>
-  </div>
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingTwo">
-      <h4 class="panel-title">
+            </div>
+            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                <div class="panel-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingTwo">
+                <h4 class="panel-title">
         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
           Whyt Take this Course ?
         </a>
       </h4>
-    </div>
-    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-      <div class="panel-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-      </div>
-    </div>
-  </div>
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingThree">
-      <h4 class="panel-title">
+            </div>
+            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                <div class="panel-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingThree">
+                <h4 class="panel-title">
         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
           What You'll Learn 
         </a>
       </h4>
-    </div>
-    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-      <div class="panel-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-      </div>
-    </div>
-  </div>
-    <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingThree">
-      <h4 class="panel-title">
+            </div>
+            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                <div class="panel-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingThree">
+                <h4 class="panel-title">
         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
           Syllabus
         </a>
       </h4>
+            </div>
+            <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                <div class="panel-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+            </div>
+        </div>
     </div>
-    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-      <div class="panel-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-      </div>
-    </div>
-  </div>
-</div>
 
-<!-- Course Benefits  -->
-<div class="panel panel-default container benefits-panel">
-  <div class="col-md-12 benifits-panel__title"> What Do I Get? </div>
-  <div class="panel-body benifits-panel__body row">
-    <div class="col-md-6 benifits-panel__text">
-      <i class="fa fa-check-circle" aria-hidden="true"></i>
-      <span>Project Portfolio in computer vision</span>
-    </div> 
-    <div class="col-md-6 benifits-panel__text">
-      <i class="fa fa-check-circle" aria-hidden="true"></i>
-      <span>Curriculum designed with Sebastian Thrun</span>
+    <!-- Course Benefits  -->
+    <div class="panel panel-default container benefits-panel">
+        <div class="col-md-12 benifits-panel__title"> What Do I Get? </div>
+        <div class="panel-body benifits-panel__body row">
+            <div class="col-md-6 benifits-panel__text">
+                <i class="fa fa-check-circle" aria-hidden="true"></i>
+                <span>Project Portfolio in computer vision</span>
+            </div>
+            <div class="col-md-6 benifits-panel__text">
+                <i class="fa fa-check-circle" aria-hidden="true"></i>
+                <span>Curriculum designed with Sebastian Thrun</span>
+            </div>
+            <div class="col-md-6 benifits-panel__text">
+                <i class="fa fa-check-circle" aria-hidden="true"></i>
+                <span>Personalized feedback on projects</span>
+            </div>
+            <div class="col-md-6 benifits-panel__text">
+                <i class="fa fa-check-circle" aria-hidden="true"></i>
+                <span>Coach-supported forums</span>
+            </div>
+            <div class="col-md-6 benifits-panel__text">
+                <i class="fa fa-check-circle" aria-hidden="true"></i>
+                <span>Verified Nanodegree Credential</span>
+            </div>
+        </div>
     </div>
-    <div class="col-md-6 benifits-panel__text">
-      <i class="fa fa-check-circle" aria-hidden="true"></i>
-      <span>Personalized feedback on projects</span>
-    </div>
-    <div class="col-md-6 benifits-panel__text">
-      <i class="fa fa-check-circle" aria-hidden="true"></i>
-      <span>Coach-supported forums</span>
-    </div>
-    <div class="col-md-6 benifits-panel__text">
-      <i class="fa fa-check-circle" aria-hidden="true"></i>
-      <span>Verified Nanodegree Credential</span>
-    </div>    
-  </div>
-</div>
 
-<!-- End of coruse Benefits -->
+    <!-- End of coruse Benefits -->
 
-<!-- footer section
+    <!-- footer section
 ==================== -->
-<footer>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-4 footer-section">
-					<div class="footer-description">
-						<img src="img/logo e bardh logistics.png" alt="">
-						<p>It is a long established fact that a <br> reader will be distracted by the readable content of a page when looking at its.</p>
-						<div class="instructors-media-link">
-							<a data-toggle="tooltip" data-placement="top" title="" href="https://www.facebook.com/" data-original-title="Go facebook Profile"><i class="fa fa-facebook"></i></a>
-							<a data-toggle="tooltip" data-placement="top" title="" href="https://twitter.com/" data-original-title="Go twitter Profile"><i class="fa fa-twitter"></i></a>
-							<a data-toggle="tooltip" data-placement="top" title="" href="https://plus.google.com/" data-original-title="Go Google plus Profile"><i class="fa fa-google-plus"></i></a>
-							<a data-toggle="tooltip" data-placement="top" title="" href="https://www.linkedin.com/" data-original-title="Go linkedin Profile"><i class="fa fa-linkedin"></i></a>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 footer-section" id="contact">
-					<h3>Contact</h3>
-					<div class="address">
-						<div class="office">
-							<h6>office</h6>
-							<p>3rd  Level, 43/R/13 Panthapath, <br>
-							Dhaka Bangladesh</p>
-						</div>
-						<div class="phone">
-							<h6>phone</h6>
-							<div class="phone-number">
-								<a href="tel:00123456789">+386 49 148 282</a><br>
-								<a href="tel:00123456789">+377 44 255 193</a>
-							</div>
-						</div>
-					<h6>email</h6>
-						<a class="email-add" href="#">info@logisticsplus-ks.com</a>								
-					</div>
-				</div>
-				<div class="col-md-4 footer-section">		
-					<h3>About Us</h3>
-					<ul class="usefull-link">
-						<li><a href="#">Latest Courses</a></li>
-						<li><a href="#">Courses Categories</a></li>
-						<li><a href="#">Teachers &#38; Staff</a></li>
-						<li><a href="#">Who We Are</a></li>
-						<li><a href="#">Get In Touch</a></li>
-					</ul>
-				</div>
-			</div>
-			<div class="row copyright">
-				<div class="col-md-12">
-					<p>Copyright &copy; 2016 Edurex | All Right Reserved | <a href="#">Privacy Policy</a> | <a href="#"> Terms of Use</a></p>
-				</div>
-				</div>
-			</div>
-		</div>
-	</footer>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 footer-section">
+                    <div class="footer-description">
+                        <img src="img/logo e bardh logistics.png" alt="">
+                        <p>It is a long established fact that a
+                            <br> reader will be distracted by the readable content of a page when looking at its.</p>
+                        <div class="instructors-media-link">
+                            <a data-toggle="tooltip" data-placement="top" title="" href="https://www.facebook.com/" data-original-title="Go facebook Profile"><i class="fa fa-facebook"></i></a>
+                            <a data-toggle="tooltip" data-placement="top" title="" href="https://twitter.com/" data-original-title="Go twitter Profile"><i class="fa fa-twitter"></i></a>
+                            <a data-toggle="tooltip" data-placement="top" title="" href="https://plus.google.com/" data-original-title="Go Google plus Profile"><i class="fa fa-google-plus"></i></a>
+                            <a data-toggle="tooltip" data-placement="top" title="" href="https://www.linkedin.com/" data-original-title="Go linkedin Profile"><i class="fa fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 footer-section" id="contact">
+                    <h3>Contact</h3>
+                    <div class="address">
+                        <div class="office">
+                            <h6>office</h6>
+                            <p>3rd Level, 43/R/13 Panthapath,
+                                <br> Dhaka Bangladesh</p>
+                        </div>
+                        <div class="phone">
+                            <h6>phone</h6>
+                            <div class="phone-number">
+                                <a href="tel:00123456789">+386 49 148 282</a>
+                                <br>
+                                <a href="tel:00123456789">+377 44 255 193</a>
+                            </div>
+                        </div>
+                        <h6>email</h6>
+                        <a class="email-add" href="#">info@logisticsplus-ks.com</a>
+                    </div>
+                </div>
+                <div class="col-md-4 footer-section">
+                    <h3>About Us</h3>
+                    <ul class="usefull-link">
+                        <li><a href="#">Latest Courses</a>
+                        </li>
+                        <li><a href="#">Courses Categories</a>
+                        </li>
+                        <li><a href="#">Teachers &#38; Staff</a>
+                        </li>
+                        <li><a href="#">Who We Are</a>
+                        </li>
+                        <li><a href="#">Get In Touch</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row copyright">
+                <div class="col-md-12">
+                    <p>Copyright &copy; 2016 Edurex | All Right Reserved | <a href="#">Privacy Policy</a> | <a href="#"> Terms of Use</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
 
     <script src="js/vendor/jquery.min.js"></script>
     <script src="js/vendor/bootstrap.min.js"></script>
@@ -380,7 +388,8 @@
     <script src="js/vendor/jquery.scrollUp.min.js"></script>
     <script src="js/script.js"></script>
     <script type="text/javascript">
-    	$('.carousel').carousel();
+        $('.carousel').carousel();
     </script>
-  </body>
+</body>
+
 </html>
