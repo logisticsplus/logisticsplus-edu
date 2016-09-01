@@ -30,131 +30,99 @@
 		</div>
 	</div> -->
 
+<!-- Login Option 
+  =================-->
+  <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginLabel">
+    <div class="modal-dialog popup-content-LI" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+          </button>
+          <div class="logo_login-popup col-md-12">
+            <img class="img-responsive" src="img/logisticsplus_logo.svg" alt="">
+          </div>
+        </div>
+        <div class="modal-body">
+          <form id="login" method="post" action="#" class="input_login-forms row">
 
-  <header>
-	<div class="container">
-	  <div class="row">
-		<div class="col-md-6">
-		  <div class="block">
-			<p><a href="#">My Account</a></p>
-			<!-- Extra small button group -->
-			<div class="btn-group">
-			  <button class="btn btn-default btn-xs dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-				<a href="#">ENGLISH</a>
-			  </button>
-			  <ul class="dropdown-menu language-dropdown-nav">
-				<li><a href="#">Shqip</a></li>
-				<li><a href="#">English</a></li>
-			  </ul>
-			</div>
-		  </div>
-		</div>
-		<div class="col-md-6">
-		  <div class="block align-right">
-			<a href="#" data-toggle="modal" data-target="#registerModal" data-whatever="@mdo">register</a>
-			<div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="registerlLabel">
-			  <div class="modal-dialog" role="document">
-				<div class="modal-content">
-				  <div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-					<h4 class="modal-title" id="registerlLabel">Register Now</h4>
-				  </div>
-				  <div class="modal-body">
-					<form class="rex-forms">
-					  <div class="form-group">
-						<input type="text" class="form-control" id="fast-name" placeholder="Fast Name">
-					  </div>
-					  <div class="form-group">
-						<input type="text" class="form-control" id="last-name" placeholder="Last Name">
-					  </div>
-					  <div class="form-group">
-						<input type="email" class="form-control" id="email-name" placeholder="E-mail">
-					  </div>
-					  <div class="form-group">
-						<input type="password" class="form-control" id="pass-word" placeholder="Password">
-					  </div>
-					  <div class="form-group">
-						<input type="password" class="form-control" id="re-pass-word" placeholder="Re-Password">
-					  </div>
-					</form>
-				  </div>
-				  <div class="modal-footer">
-					<button class="rex-bottom-medium rex-btn-icon">
-						<span class="rex-btn-text">registration</span>
-						<span class="rex-btn-text-icon"><i class="fa fa-arrow-circle-o-right"></i></span>
-					</button>                    
-				  </div>
-				</div>
-			  </div>
-			</div>
-			<a href="#" data-toggle="modal" data-target="#loginModal" data-whatever="@mdo"><i class="fa fa-lock"></i>LOG in </a> 
-			<!-- Login Option -->
-			<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginLabel">
-			  <div class="modal-dialog" role="document">
-				<div class="modal-content">
-				  <div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-					<h4 class="modal-title" id="loginLabel">Login</h4>
-				  </div>
-				  <div class="modal-body">
-					<form class="rex-forms">
-					  <div class="form-group">
-						<input type="text" class="form-control" id="recipient-name" placeholder="Name">
-					  </div>
-					  <div class="form-group">
-						<input type="password" class="form-control" id="pass_word" placeholder="Password">
-					  </div>
-					</form>
-				  </div>
-				  <div class="modal-footer">
-					<button class="rex-bottom-medium rex-btn-icon">
-						<span class="rex-btn-text">Login</span>
-						<span class="rex-btn-text-icon"><i class="fa fa-arrow-circle-o-right"></i></span>
-					</button>  
-				  </div>
-				</div>
-			  </div>
-			</div>
-		  </div>
-		</div>
-	  </div>
-	</div>
-  </header>
-<main class="rex-main-content">
-	<!-- Add your site or application content here -->
-<!-- Navigation Html
-=================== -->
-<div class="main-menu">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<div class="logo">
-					<a href="index.html">
-						<img class="img-responsive" src="img/logisticsplus_logo.png" alt="">
-					</a>
-				</div>
-				<div class="menu-container">
-					<div class="menu">
-						<ul class="main-ul">
-							<li><a href="index.html">Home</a></li>
-							<li><a class="active" class="courses-nav">Courses +</a>
-								<ul class="topnav-courses__dropdown">
-									<li><a href="embedded-details.html">Embedded Systems</a></li>
-									<li><a href="backend-details.html">BackEnd</a></li>
-									<li><a href="frontend-details.html">FrontEnd</a></li>
-								</ul>
-							</li>
-							<li><a href="index.html">Instructors</a></li>
-							<!-- <li><a href="about_page.html">About</a> -->
-							<li><a href="index.html">Contact</a>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-		
+            <div class="col-md-12">
+              <input class="login-input" type="text" autocapitalize="off" autocorrect="off" / placeholder="USERNAME">
+            </div>
+            <div class="col-md-12">
+              <input class="login-input" required name="login[password]" type="password" placeholder="PASSWORD" />
+ <!--                            <div class="hide-show">
+                <span><i class="fa fa-eye fa-2x" aria-hidden="true"></i></span>
+              </div> -->
+            </div>
+
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button class="rex-bottom-medium rex-btn-icon">
+            <span class="rex-btn-text">Login</span>
+            <span class="rex-btn-text-icon"><i class="fa fa-arrow-circle-o-right"></i></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Navigation Html
+    =================== -->
+    <nav id="mainNav" class="navbar navbar-default top-navigationbar">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="navigationbar-logo">
+            <a href="index.html">
+              <img class="img-responsive" src="img/Logistics_Plus_Logo-t.png" alt="">
+            </a>
+          </div>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right navigation_height">
+            <li>
+              <a href="index.html">HOME</a>
+            </li>
+<!--             <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">COURSES</a>
+              <ul class="dropdown-menu">
+                <li><a href="embedded-details.html">Embedded Systems</a>
+                </li>
+                <li><a href="backend-details.html">Back-End</a>
+                </li>
+                <li><a href="frontend-details.html">Front-End</a>
+                </li>
+              </ul>
+            </li> -->
+            <li>
+              <a href="backend-details.html">BACK END</a>
+            </li>
+            <li>
+              <a href="frontend-details.html">FRONT END</a>
+            </li>
+            <li>
+              <a href="#contact">CONTACT</a>
+            </li>
+            <li>
+              <a href="#" data-toggle="modal" data-target="#loginModal" data-whatever="@mdo"><i class="fa fa-lock"></i> LOG IN </a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container -->
+    </nav>
+
+<main class="rex-main-content">	
 
 
 	<!-- Breadcum section -->
@@ -189,7 +157,7 @@
 
 					<!-- Single courses img section -->
 					<div class="single-img">
-						<img class="img-responsive" src="img/Fig-1.png" alt="">
+						<img class="img-responsive" src="img/embedded.jpg" alt="">
 					</div><!-- end -->
 
 					<!-- description section -->
@@ -298,7 +266,7 @@
 		<div class="panel-heading" role="tab" id="headingOne">
 			<h4 class="panel-title">
 				<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-					Couse Summ +
+					Couse Summ
 				</a>
 			</h4>
 		</div>
@@ -312,7 +280,7 @@
 		<div class="panel-heading" role="tab" id="headingTwo">
 			<h4 class="panel-title">
 				<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-					Whyt Take this Course ? +
+					Whyt Take this Course ?
 				</a>
 			</h4>
 		</div>
@@ -326,7 +294,7 @@
 		<div class="panel-heading" role="tab" id="headingThree">
 			<h4 class="panel-title">
 				<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-					What You'll Learn +
+					What You'll Learn
 				</a>
 			</h4>
 		</div>
@@ -340,7 +308,7 @@
 		<div class="panel-heading" role="tab" id="headingThree">
 			<h4 class="panel-title">
 				<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
-					Syllabus +
+					Syllabus
 				</a>
 			</h4>
 		</div>

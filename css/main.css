@@ -202,17 +202,27 @@ h6 {
 
 .top-navigationbar {
   background-color: rgba(255, 255, 255, 0.972);
+  margin-bottom: 0px;
 }
 
 
 .navigation_height {
-  padding-top: 12px;
+  padding-top: 20px;
 }
 
 
 .navigationbar-logo img {
   width: 150px;
-  padding-left: 4px;
+  padding:10px 4px;
+}
+
+@media only screen and (max-width: 500px) {
+  .navigationbar-logo img {
+    padding-left :20px;
+  }
+  .navbar-toggle {
+    margin-top: 25px;
+  }
 }
 
 header {
@@ -931,9 +941,11 @@ aside.widget.widget_archive ul li:last-child {
     margin-bottom: 0;
 }
 .breadcum {
-    padding: 80px 0;
-    background: url("../img/embedded-hero0.jpg");
-    border-top: 1px solid #e8e8e8;
+    padding: 80px 0;    
+    background: #00bf8f; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #00bf8f , #001510); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #00bf8f , #001510); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        /*border-top: 1px solid #e8e8e8;*/
 }
 .breadcum h4 {
     text-transform: uppercase;
@@ -3500,7 +3512,7 @@ div.loading .wrapper img{
     }
 
     .rex-slider {
-      margin-top: 100px;
+      margin-top: 121px;
     }
 
     /*=====
@@ -4007,7 +4019,7 @@ div.loading .wrapper img{
     }
 
     .rex-slider {
-      margin-top: 100px;
+      margin-top: 121px;
     }
 
     .rex-slider h1 {
@@ -4979,9 +4991,15 @@ panel-group Course Details
 }
 
 
-/*
-**Team Hover effect
-*/
+
+
+
+
+/*------------------------*\
+    **Team Hover effect**
+\*------------------------*/
+
+
 
 .image-wrapper {
     width: 100%;
@@ -5000,6 +5018,11 @@ panel-group Course Details
     top: 0;
     left: 0;
 }
+
+.image-overlay-content a {
+  cursor: pointer;
+}
+
 .overlay-slide-in-left img {
     transition: all 0.3s ease-in-out;
     width: 100%;
@@ -5012,13 +5035,25 @@ panel-group Course Details
     transition: all 0.4s ease-in-out;
     box-shadow: 0 0 7px #ccc;
 }
-.overlay-slide-in-left h2 {
-    font-size: 1.8rem;
+.overlay-slide-in-left h4 {
     background: rgba(255, 255, 255, 0.7);
-    margin-top: 40%;
+    margin-top: 20%;
     color: #000;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
 }
+
+@media only screen and (max-width: 500px) {
+    .overlay-slide-in-left h4 {
+      /*font-size: 1.5em;*/
+  }
+  .overlay-slide-in-left p {
+      font-size: 0.9em;
+  }
+  .president {
+    padding: 0px;
+  }
+}
+
 .overlay-slide-in-left p {
     opacity: 0;
     color: #333;
@@ -5050,14 +5085,7 @@ panel-group Course Details
     transition-delay: 0.4s;
 }
 
-button {
-  padding: 1em 2em;
-  outline: none;
-  font-weight: 600;
-  border: none;
-  color: #fff;
-  background: #c94e50;
-}
+
 
 .dialog,
 .dialog__overlay {
@@ -5115,8 +5143,10 @@ button {
 \*-----------------------*/
 
 .popup-div__team img{
-  width: 110%;
-  margin: 50% auto;
+  width: 100%;
+  margin-top: 50%;
 }
 
-
+.popup__body-text span {
+  opacity: 0.8; 
+}
