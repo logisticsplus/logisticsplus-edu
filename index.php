@@ -389,8 +389,7 @@
                             <div>
                                 <div class="media">
                                     <div class="media-left testimonials-img col-md-4">
-                                        <img class="img/rilind.jpg">
-                                        <h5>Rilind Pozhegu</h5>
+									<img class="media-object testimonial-author" src="http://placehold.it/96x96" alt="...">                                        <h5>Rilind Pozhegu</h5>
                                         <span>Student Of System Information</span>
                                     </div>
 
