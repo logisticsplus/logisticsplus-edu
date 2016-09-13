@@ -341,8 +341,9 @@ button span .caret {
     width: 25%;
 }
 .logo_login-popup img {
+    width: 200px;
     margin: 0 auto;
-    padding-bottom: 15px;
+    padding-bottom: 25px;
 }
 .input_login-forms {
     padding-bottom: 30px;
@@ -1205,11 +1206,16 @@ aside.widget.widget_archive ul li:last-child {
 .testimonials .testimonials-img {
     display: block;
 }
+
+.testimonials-img img {
+    width: 100%;
+    }
+
 .testimonials .testimonials-body {
     padding-bottom: 20px;
 }
 .testimonials .testimonials-body p {
-    padding: 20px 10px;
+    padding: 20px 30px;
 }
 .testimonials .owl-carousel {
     background: #fff;
@@ -3705,6 +3711,9 @@ div.loading .wrapper img {
         min-width: 200px;
         display: table-cell;
     }
+    .testimonials-img img {
+    width: 100%;
+    }
     .testimonials .testimonials-body {
         display: table-cell;
     }
@@ -4562,6 +4571,8 @@ div.loading .wrapper img {
     .silder .slider-last-child h1 {
         -webkit-transform: translateY(-9px);
         transform: translateY(-9px);
+        font-size: 54px;
+        padding-top: 20px;
     }
     .silder .slider-last-child .slider-text {
         -webkit-transform: translateY(74%);
@@ -4653,8 +4664,11 @@ div.loading .wrapper img {
     .testimonials .testimonials-img {
         padding-top: 28px;
     }
+    .testimonials-img img {
+    width: 100%;
+    }
     .testimonials .testimonials-body {
-        padding-left: 128px;
+        padding-left: 35px;
         position: relative;
         padding-bottom: 20px;
     }
@@ -4678,6 +4692,11 @@ div.loading .wrapper img {
     .testimonials {
         padding-bottom: 140px;
     }
+
+    .testimonials-img img {
+    width: 100%;
+    }
+
     /*=======
       * About page
     =========*/

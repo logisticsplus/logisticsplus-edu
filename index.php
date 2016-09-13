@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>LogisticPlus-edu</title>
+    <title>logistics Plus-edu</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Place favicon.ico in the root directory -->
@@ -41,7 +41,7 @@
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
                     </button>
                     <div class="logo_login-popup col-md-12">
-                        <img class="img-responsive" src="img/logisticsplus_logo.svg" alt="">
+                        <img class="img-responsive" src="img/Logistics_Plus_Logo-t.png" alt="">
                     </div>
                 </div>
                 <div class="modal-body">
@@ -90,11 +90,11 @@
                     </div>
                 </div>
 
-                <!-- Collect the nav links, forms, and other content for toggling -->
+                <!-- Collect the nav links, forms, and other content for toggling -->            
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right navigation_height">
                         <li>
-                            <a class="active" href="index.html">HOME</a>
+                            <a href="#top">HOME</a>
                         </li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">COURSES</a>
@@ -133,7 +133,7 @@
                 <div class="slide-list" data-lazy-background="img/embedded-systems-laboratory-systems.jpg">
                     <h1 data-pos="['0', '0']" data-duration="1000" data-effect="fadein">
 					<span class="highlight-text">LEARN FROM THE BEST. </span>
-					ANYTIME. ANYWHERE.
+					ANYTIME & ANYWHERE
 				</h1>
                     <div class="slider-text" data-pos="['0', '0']" data-duration="700" data-effect="fadein">
                         <p>Advance and build on existing skills with our
@@ -163,12 +163,12 @@
 
                 <!-- slider 3 -->
                 <div class="slide-list slider-last-child" data-lazy-background="img/shutterstock_3365600152.jpg">
-                    <h1 data-pos="['0', '0']" data-duration="1000" data-effect="fadein">
-					Online course
-				</h1>
+                     <h1 data-pos="['0', '0']" data-duration="1000" data-effect="fadein">
+                    <span class="highlight-text"> </span>
+                    Start creative & exciting career <br> With our programs
+                </h1>
                     <div class="slider-text" data-pos="['0', '0']" data-duration="700" data-effect="fadein">
-                        <p>Start a creative and exciting career with
-                            <br> our online programs</p>
+                        <p></p>
                     </div>
                     <!-- <div class="slider-btn" data-pos="['0', '0']" data-duration="700" data-effect="fadein">
 						<a href="#" target="_self" class="rex-bottom-medium rex-btn-icon">
@@ -197,7 +197,7 @@
                                 <div class="col-md-12">
                                     <div class="block-content">
                                         <div class="courses-img">
-                                            <img class="img-responsive" src="img/embedded.jpg" alt="">
+                                            <img class="img-responsive" src="img/polarion-embedded-systems-overview.jpg" alt="">
                                             <div class="courses-overlay">
                                                 <a href="embedded-details.html"><h6>MORE</h6></a>
                                             </div>
@@ -277,7 +277,7 @@
         <div class="container">
             <div class="title-section col-md-12">
                 <h2>Our Team</h2>
-                <p></p>
+                <p>Who we are</p>
             </div>
         </div>
 
@@ -286,7 +286,7 @@
                 <div class="row">
                     <div class="col-md-12 president-content president-lp__content">
                         <div class="col-md-3">
-                            <img class="img-responsive" src="img/prof1.jpg" alt="">
+                            <img class="img-responsive" src="img/edi1.png" alt="">
                         </div>
                         <div class="col-md-9 content-text team-president__textContent">
                             <div class="president-title team-presindet__text">
@@ -308,7 +308,7 @@
                 <!-- <div class="row"> -->
                 <div class="small-4 columns col-md-2 col-xs-6">
                     <div class="image-wrapper overlay-slide-in-left">
-                        <img src="img/prof4.jpg" />
+                        <img src="img/glenn1.png" />
                         <div class="image-overlay-content">
                             <h4>Glenn Noble</h4>
                             <p class="price">Engineer</p>
@@ -358,7 +358,7 @@
                 </div>
                 <div class="small-4 columns col-md-2 col-xs-6">
                     <div class="image-wrapper overlay-slide-in-left">
-                        <img src="img/prof2.jpg" />
+                        <img src="img/donjeta.png" />
                         <div class="image-overlay-content">
                             <h4>Donjeta Muçaj</h4>
                             <p class="price">Training Coordinator</p>
@@ -387,27 +387,69 @@
                     <div class="col-md-12">
                         <div id="testimonials" class="owl-carousel">
                             <div>
-                                <div class="media">
-                                    <div class="media-left testimonials-img col-md-4">
-									<img class="media-object testimonial-author" src="http://placehold.it/96x96" alt="...">                                        <h5>Rilind Pozhegu</h5>
-                                        <span>Student Of System Information</span>
-                                    </div>
+                                <div class="media row">
+                                    <div class="media-left testimonials-img col-md-2 col-xs-12">
+                                        <img src="img/rp.jpg">
+                                    </div>                                   
 
                                     <div class="media-body  testimonials-body">
+                                        <div class="testimonials-title">
+                                            <h5>Rilind Pozhegu</h5>
+                                            <span>Front End Developer</span>
+                                        </div>
                                         <p>"I went to Logistics Plus with very little knowledge of programming. After finishing 3 months training, I started to work in Logistics Plus and skills you learn will help you to grow and develop academically and personally. Therefore, I do consider myself lucky to be part of Logistics Plus and I would recommend this training to all those who want to be good programmers and are are interested to increase their skills and knowledge, because there will be lots of work opportunities after you finish this training both in private and public sector"</p>
                                     </div>
                                 </div>
                             </div>
 
                             <div>
-                                <div class="media">
-                                    <div class="media-left testimonials-img col-md-4">
-                                        <img class="media-object testimonial-author" src="http://placehold.it/96x96" alt="...">
-                                        <h5>Kai Green</h5>
-                                        <span>Student from USA</span>
-                                    </div>
+                                <div class="media row">
+                                    <div class="media-left testimonials-img col-md-2">
+                                        <img src="img/vc.jpg">
+                                    </div>                                   
+
                                     <div class="media-body  testimonials-body">
-                                        <p>"Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis es eligendi optio cumque nihil impedid quo minus id quos maxime placeat facere possimus, omnis vo eligendi optio cumque nihil impedid quo minus id quos maxime placeat facere possimus, omnis vo luptas assumenda est, omnis dolor repellendus."</p>
+                                        <div class="testimonials-title">
+                                            <h5>Vlera Curri</h5>
+                                            <span>Software Developer</span>
+                                        </div>
+                                        <p>"Being part of Logistics Plus training programm was one of the right choices that I have made for my career. For three months, I was learning with
+                                        Java language especially with Spring Framework. As a result of passing all the tests that I went through and being succsessful in this 
+                                        field, I started to work for this company and serving my knowledge as a software developer. Meanwhile, I am applying all the stuff that I have learned during the training
+                                        and challenging myself while creating real web apllications. If you want to be a successful software developer I would recommand to you Logistics Plus training program
+                                        where you will be trained from the experts of the IT field, also the success is guarenteed"</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="media row">
+                                    <div class="media-left testimonials-img col-md-2">
+                                        <img src="img/erjona.jpg">
+                                    </div>                                   
+
+                                    <div class="media-body  testimonials-body">
+                                        <div class="testimonials-title">
+                                            <h5>Eriona Osmani</h5>
+                                            <span>Software Developer</span>
+                                        </div>
+                                        <p>"I am a student, I started internship for 3 months with very little knowledge of programming, for these 3 months i started to get familiar with my job, the success I got is from the colleagues in the office by helping and motivating me to not quit for what I am good at. After 3 months of internship I started to work as a regular worker, after I worked hard and let them know that I really can succeed as a Software Developer. I consider my self lucky that I finished internship at Logistics Plus and now I am lucky that I work for them. I recommend this training, to all those who want to succeed as programmers and to increase their skills and knowledge, because it is worth it. And I am telling you this from deep inside me, because now I know my self for what I am able to do in my life."</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="media row">
+                                    <div class="media-left testimonials-img col-md-2">
+                                        <img src="img/msh.jpg">
+                                    </div>                                   
+
+                                    <div class="media-body  testimonials-body">
+                                        <div class="testimonials-title">
+                                            <h5>Milot Shillova</h5>
+                                            <span>Software Developer</span>
+                                        </div>
+                                        <p>"I have been doing my internship at Logistics Plus for the last 2 months and so far i have been learning a lot about back-end programming, to be more specific with Java and Spring Boot framework. At the moment we are working on adding a new module to the Logistics Plus' website. Logistics Plus have supervisors who also act as both mentors and teachers to help us with what we need to learn or to teach us how to work on certain things which we still have not learned how to. I would recommend anyone who likes to learn any kind of programming, to head at Logistics Plus as they will learn different things and of course new thing too."</p>
                                     </div>
                                 </div>
                             </div>
@@ -569,7 +611,7 @@
         <div class="container" id="teamid">
             <div class="title-section col-md-12">
                 <h2>Contacts</h2>
-                <p></p>
+                <p>Where you can find us</p>
             </div>
         </div>
 
@@ -611,13 +653,11 @@
                             <div class="phone">
                                 <h6>phone</h6>
                                 <div class="phone-number">
-                                    <a href="tel:00123456789">+386 49 148 282</a>
-                                    <br>
-                                    <a href="tel:00123456789">+377 44 255 193</a>
+                                    <a href="tel:00123456789">+377 44 798 626</a>
                                 </div>
                             </div>
                             <h6>email</h6>
-                            <a class="email-add" href="mailto:info@logisticsplus-ks.com"></a>
+                            <a class="email-add" href="mailto:info@logisticsplus-ks.com">training@logisticsplus-ks.com</a>
                         </div>
                     </div>
                     <div class="col-md-4 footer-section">
