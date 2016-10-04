@@ -41,7 +41,7 @@
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
                     </button>
                     <div class="logo_login-popup col-md-12">
-                        <img class="img-responsive" src="img/logisticsplus_logo.svg" alt="">
+                        <img class="img-responsive" src="img/lLogistics_Plus_Logo-t.png" alt="">
                     </div>
                 </div>
                 <div class="modal-body">
@@ -63,6 +63,49 @@
                     <button class="rex-bottom-medium rex-btn-icon">
                         <span class="rex-btn-text">Login</span>
                         <span class="rex-btn-text-icon"><i class="fa fa-arrow-circle-o-right"></i></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Register popup 
+  =================-->
+    <div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="loginLabel">
+        <div class="modal-dialog popup-content-LI" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                    </button>
+                    <!-- <div class="logo_login-popup col-md-12">
+                        <img class="img-responsive" src="img/logisticsplus_logo.svg" alt="">
+                    </div> -->
+                </div>
+                <div class="modal-body">
+                    <form id="login" method="post" action="#" class="input_login-forms row">
+
+                        <div class="col-md-6">
+                            <input class="login-input" type="text" autocapitalize="off" autocorrect="off" / placeholder="NAME">
+                        </div>
+                        <div class="col-md-6">
+                            <input class="login-input" type="text" placeholder="SURNAME" />
+                        </div>
+                        <div class="col-md-12">
+                            <input class="login-input" type="text" placeholder="E-MAIL" />
+                        </div>
+                        <div class="col-md-12">
+                            <input class="login-input" type="text" placeholder="PHONE" />
+                        </div>
+                        <div class="col-md-12">
+                            <textarea class=" register-textbox" rows="5" id="comment" placeholder="COMMENT"></textarea>
+                        </div>
+
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="rex-bottom-medium rex-btn-icon">
+                        <span class="rex-btn-text register-popup_close col-xs-6"> Sent</span>
+                        <span type="button" class="rex-btn-text register-popup_close col-xs-6" data-dismiss="modal">Cancle</span>
                     </button>
                 </div>
             </div>
@@ -167,7 +210,7 @@
                         <!-- description section -->
                         <div class="description">
                             <h4>DESCRIPTION</h4>
-                            <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit ame accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Null felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermen pharetra, erat sed fermentum feugiat.</p>
+                            <p>The Embedded Systems courses are a series of hands-on training courses that will help engineers with the necessary skills to comfortably work on embedded system projects. This series of courses will be split into 4 (10 weeks long) courses, with each course building on the skills and knowledge acquired in previous one. Since the bulk of the time will be spend on students doing practical work, candidates should have a basic understanding of electronics, ideally being upper classman students or graduates in an electrical engineering field, such as computer engineering, electronics, or automation engineering. .</p>
                         </div>
                         <!-- end -->
 
@@ -178,8 +221,7 @@
                         <!-- coures reat -->
                         <div class="course-reating">
                             <a href="#" target="_self" class="rex-bottom-medium rex-btn-icon">
-                                <span class="rex-btn-text">Take this course</span>
-                                <span class="rex-btn-text-icon btn-text">89.00€</span>
+                                <span class="rex-btn-text" href="#" data-toggle="modal" data-target="#registerModal" data-whatever="@mdo">Take this course</span>
                             </a>
                         </div>
 
@@ -187,7 +229,7 @@
                             <ul>
                                 <li><a href="#"><i class="fa fa-clock-o"></i>Length:</a>&nbsp; 1 year</li>
                                 <!-- <li><a href="#"><i class="fa fa-briefcase"></i>Type:</a>&nbsp; Verified</li> -->
-                                <li><a href="#"><i class="fa fa-tags"></i>Price:</a>&nbsp; 89.00€</li>
+                                <li><a href="#"><i class="fa fa-tags"></i>Price/ Month:</a>&nbsp; 89.00€</li>
                                 <li><a href="#"><i class="fa fa-comments"></i>Languages:</a>&nbsp;Shqip</li>
                                 <li><a href="#"><i class="fa fa-video-camera"></i>Video :</a>&nbsp;English</li>
                             </ul>
@@ -265,13 +307,13 @@
             <div class="panel-heading" role="tab" id="headingOne">
                 <h4 class="panel-title">
 				<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-					Course Summary
+					Course Structure
 				</a>
-			</h4>
+		 	</h4>
             </div>
             <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
                 <div class="panel-body">
-                   Our courses will be split into 4 levels, with each course building on the skills and knowledge acquired in previous one. It is assumed that the trainees that start the first course have a basic understanding of electronics. They will ideally be upper classman students or graduates in an electrical engineering field, such as computer engineering, electronics, or automation engineering.It will meet for a total of 60 hours spread over 10 weeks. Every week there will be three 2-hour long sessions. Every week we will devote 1 session to theoretical discussion with examples, 1 session to programming discussion with examples, and 1 session (+ any additional required time) in student personal assignments
+                   Each of the 4 courses will meet for 10 weeks for a total of 60 hours. Every week there will be three 2-hour long sessions: 1 session to theoretical discussion with examples, 1 session to programming discussion with examples, and 1 session (+ any additional required time) in student personal assignments.
                 </div>
             </div>
         </div>
@@ -279,13 +321,13 @@
             <div class="panel-heading" role="tab" id="headingTwo">
                 <h4 class="panel-title">
 				<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-					Whyt Take this Course ?
+					Why Take this Course?
 				</a>
 			</h4>
             </div>
             <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                 <div class="panel-body">
-                    After completing the training, the engineers will fill in the big gaps for technically skilled staff in Kosovo’s technology industry. the students will choose an idea and design a product. We will mentor them through all the steps. The students will be grouped based on the ideas they choose to develop. Moreover, we will work with existing incubators in Prishtina, to place the teams of students in case their ideas lead to a product that can be used to start a company. Finally, as part of this course students will learn about assembly line and the key equipment required to assemble an electronic product. The goals of the Logistics Plus are to train technology-minded, young professionals of Kosovo and neighboring countries to design, develop, and manufacture electronic control systems and technology products that can compete in world markets.  This will enable them to be part of new promising startups with technologically advanced products. 
+                    The aim is to help engineers who take this course fill in the current gaps in the technology market for technically skilled staff. The structure of the course is such that the majority of class time will be spent on providing students with practical skills. Throughout all courses students will choose an idea and finalize the respective design under the guidance of highly qualified embedded systems engineers. The students will be grouped based on the ideas they choose to develop. By the end of the course each student should be able to tackle embedded systems projects, and be able to design both hardware and software. Students will have access to laboratory equipment and different electronic kits for each course. The goals of Logistics Plus are to train technology-minded, young professionals of Kosovo and neighboring countries to design, develop, and manufacture electronic control systems and technology products that can compete in world markets. This will enable them to be part of new promising startups with technologically advanced products.
                 </div>
             </div>
         </div>
@@ -293,13 +335,28 @@
             <div class="panel-heading" role="tab" id="headingThree">
                 <h4 class="panel-title">
 				<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-					What You'll Learn
+					What you will learn
 				</a>
 			</h4>
             </div>
             <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                 <div class="panel-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    <div class="col-md-12">
+                        <span style="font-weight: bold;">Embedded Systems 1</span>
+                            <br> This course will introduce students to embedded systems design using an Arduino. The course will start by covering the basics of electronics, and how to implement different electronic components in circuit design for an embedded system. Different circuits that showcase the characteristics of electronic components (passive components, diodes, transistors, op amps, sources, etc.) will be designed and implemented by the students. At the same time, the basics of C programing, and especially the Arduino programing environment will be covered.
+                    </div>
+                    <div class="col-md-12">    
+                        <span style="font-weight: bold;">Embedded Systems 2</span>
+                            <br>This course will continue building the practical skills of engineers to design and build embedded systems. At this stage a development board for one of the more widely used 8 bit MCUs will be used instead of Arduino. At the end of the course, the students will be able to write code for a MCU, as well as design an embedded system that has an 8 bit MCU and a number of different modules (power, communication, memory, drivers, etc.). The students will also be comfortable working on an IDE tailored for embedded design.
+                    </div>    
+                    <div class="col-md-12">
+                        <span style="font-weight: bold;">Embedded Systems 3</span>
+                            <br> This course will be split into two parts. The first 3 weeks will be instruction heavy, as students will learn about a PCB layout software and discuss in detail the pieces of a project to be completed by the end of the course. The next 7 weeks will be focused heavily on student work, who will be grouped in teams of three, and create a circuit schematic, write the code, and lay out the PCB for a product. The product will be such that it will include a few modules, so that exposure to different aspects of embedded systems is increased.
+                    </div>    
+                    <div class="col-md-12">
+                        <span style="font-weight: bold;">From idea to design </span>   
+                            <br>   This course will be offered only to those students who have successfully completed the other 3 courses, and who are deemed to poses the required skills to independently, or with little oversight, design an embedded system. Over the course of 10 weeks, the students will choose an idea and design a product. We will mentor them through all the steps. The students will be grouped based on the ideas they choose to develop. Moreover, we will work with existing incubators in Prishtina, to place the teams of students in case their ideas lead to a product that can be used to start a company. Finally, as part of this course students will learn about assembly line and the key equipment required to assemble an electronic product.
+                    </div>    
                 </div>
             </div>
         </div>
@@ -313,7 +370,23 @@
             </div>
             <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                 <div class="panel-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                   <div class="col-md-12">
+                        <span style="font-weight: bold;">1. Embedded Systems I </span>   
+                            <br> This course will introduce students to embedded systems design using an Arduino. It will cover the basics of electronics through practical exercises in which students will design circuits that showcase the characteristics of different electronic components (passive components, diodes, transistors, operational amplifiers, etc.), sensors (temperature, light, etc.), and some basic integrated circuits. Arduino will be used for the programming part of the course. Each week students will do supervised and independent projects/tasks.
+                    </div>
+                     <div class="col-md-12">
+                        <span style="font-weight: bold;">2. Embedded Systems II </span>   
+                            <br>In this course Arduino will be replaced by a development board for one of the most widely used microcontrollers. At the end of this course, the students will be able to design both the hardware and software for an embedded system prototype that includes a microcontroller and a number of different modules, such as power, communication, memory, and motor drivers.
+                    </div>
+                    <div class="col-md-12">
+                        <span style="font-weight: bold;">3. Embedded Systems III</span>   
+                            <br> In this course students will move on to learning about PCB layout design. They will be introduced to a computer program for schematic and layout editing. There will be discussions and mentoring for finding the necessary components to complete the independent project at the end of the course. Students will also learn manual component placing and soldering for SMD components, so that they can complete their projects.
+
+                    </div>    
+                    <div class="col-md-12">
+                        <span style="font-weight: bold;">4. From idea to designproduct</span>   
+                            <br> This course will be offered only to those students who have successfully completed the previous three courses. Over 10 weeks, students will choose an idea and design a product. We will mentor them through all the steps. As part of this course students will learn about assembly line and the key machinery required to assemble an electronic product. At the end of the course each student will have a finalized product.
+                    </div>         
                 </div>
             </div>
         </div>
@@ -351,65 +424,42 @@
 
     <!-- footer section
 ==================== -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 footer-section">
-                    <div class="footer-description">
-                        <img src="img/logo e bardh logistics.png" alt="">
-                        <p>It is a long established fact that a
-                            <br> reader will be distracted by the readable content of a page when looking at its.</p>
-                        <div class="instructors-media-link">
-                            <a data-toggle="tooltip" data-placement="top" title="" href="https://www.facebook.com/" data-original-title="Go facebook Profile"><i class="fa fa-facebook"></i></a>
-                            <a data-toggle="tooltip" data-placement="top" title="" href="https://twitter.com/" data-original-title="Go twitter Profile"><i class="fa fa-twitter"></i></a>
-                            <a data-toggle="tooltip" data-placement="top" title="" href="https://plus.google.com/" data-original-title="Go Google plus Profile"><i class="fa fa-google-plus"></i></a>
-                            <a data-toggle="tooltip" data-placement="top" title="" href="https://www.linkedin.com/" data-original-title="Go linkedin Profile"><i class="fa fa-linkedin"></i></a>
+     <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 footer-section">
+                        <div class="footer-description">
+                            <img src="img/logisticplus-white.svg" alt="">
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4 footer-section" id="contact">
-                    <h3>Contact</h3>
-                    <div class="address">
-                        <div class="office">
-                            <h6>office</h6>
-                            <p>3rd Level, 43/R/13 Panthapath,
-                                <br> Dhaka Bangladesh</p>
-                        </div>
-                        <div class="phone">
-                            <h6>phone</h6>
-                            <div class="phone-number">
-                                <a href="tel:00123456789">+377 44 798 626</a>
+                    <div class="col-md-4 footer-section" id="contact">
+                        <h3>Contact</h3>
+                        <div class="address">
+                            <div class="office">
+                                <h6>office</h6>
+                                <p>St, Rexhep Krasniqi
+                                    <br> Prishtine
+                                </p>
                             </div>
+                            <div class="phone">
+                                <h6>phone</h6>
+                                <div class="phone-number">
+                                    <a href="tel:00123456789">+377 44 798 626</a>
+                                </div>
+                            </div>
+                            <h6>email</h6>
+                            <a class="email-add" href="mailto:info@logisticsplus-ks.com">training@logisticsplus-ks.com</a>
                         </div>
-                        <h6>email</h6>
-                        <a class="email-add" href="#">training@logisticsplus-ks.com</a>
+                    </div>
+                    <div class="col-md-4 footer-section">
+                        <h3>About Us</h3>
+                        <p>
+                            Logistics Plus, LLC is a software development and system integration company headquartered in Pristina, Kosovo. Logistics Plus develops custom software and hardware solutions based on a range of platforms and technologies including embedded systems.
+                        </p>
                     </div>
                 </div>
-                <div class="col-md-4 footer-section">
-                    <h3>About Us</h3>
-                    <ul class="usefull-link">
-                        <li><a href="#">Latest Courses</a>
-                        </li>
-                        <li><a href="#">Courses Categories</a>
-                        </li>
-                        <li><a href="#">Teachers &#38; Staff</a>
-                        </li>
-                        <li><a href="#">Who We Are</a>
-                        </li>
-                        <li><a href="#">Get In Touch</a>
-                        </li>
-                    </ul>
-                </div>
             </div>
-            <div class="row copyright">
-                <div class="col-md-12">
-                    <p>Copyright &copy; 2016 Edurex | All Right Reserved | <a href="#">Privacy Policy</a> | <a href="#"> Terms of Use</a>
-                    </p>
-                </div>
-            </div>
-        </div>
-        </div>
-    </footer>
+        </footer>
 
     <script src="js/vendor/jquery.min.js"></script>
     <script src="js/vendor/bootstrap.min.js"></script>

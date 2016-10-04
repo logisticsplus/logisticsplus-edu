@@ -349,7 +349,7 @@ button span .caret {
     padding-bottom: 30px;
 }
 .login-input {
-    width: 90%;
+    width: 100%;
     border-top: none;
     border-left: none;
     border-right: none;
@@ -364,6 +364,29 @@ button span .caret {
     outline: none;
     box-shadow: none;
 }
+
+.register-textbox {
+    margin-top: 15%;
+    border: solid 2px #f4f4f4;
+    width: 100%;
+    border-radius: 2px;
+    padding: 3px 3px; 
+}
+
+.register-textbox:active {
+    outline: none;
+    box-shadow: none;
+} 
+
+.register-textbox:focus {
+    outline: none;
+    box-shadow: none;
+} 
+
+.register-popup_close {
+    border: 1px solid white;
+}
+
 /**
  * ---------------------------------------------------------------------------
  * 0?. Footer Styles
@@ -371,7 +394,12 @@ button span .caret {
  */
 
 footer {
-    background: #293136;
+    
+
+background: #485563; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #485563 , #29323c); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #485563 , #29323c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
     padding-top: 20px;
     text-align: center;
 }
@@ -476,6 +504,11 @@ footer .usefull-link li {
 .footer-description .instructors-media-link a:last-child {
     margin-right: 0;
 }
+
+.footer-description img{
+    width: 260px;
+}
+
 .menu-container {
     width: 80%;
     margin: 0 auto;
@@ -1035,6 +1068,9 @@ aside.widget.widget_archive ul li:last-child {
     top: 50% !important;
     -webkit-transform: translateY(60%);
     transform: translateY(60%);
+}
+.slider-text-carocel {
+    bottom: 62%;
 }
 .rex-slider .slide-list {
     position: relative;

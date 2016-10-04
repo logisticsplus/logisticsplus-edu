@@ -132,10 +132,10 @@
                 <!-- slider 1 -->
                 <div class="slide-list" data-lazy-background="img/embedded-systems-laboratory-systems.jpg">
                     <h1 data-pos="['0', '0']" data-duration="1000" data-effect="fadein">
-					<span class="highlight-text">LEARN FROM THE BEST. </span>
-					ANYTIME & ANYWHERE
+					<!-- <span class="highlight-text">LEARN FROM THE BEST. </span> -->
+					LEARN FROM THE BEST. 
 				</h1>
-                    <div class="slider-text" data-pos="['0', '0']" data-duration="700" data-effect="fadein">
+                    <div class="slider-text slider-text-carocel" data-pos="['0', '0']" data-duration="700" data-effect="fadein">
                         <p>Advance and build on existing skills with our
                             <br> Professional Development programs</p>
                     </div>
@@ -308,7 +308,7 @@
                 <!-- <div class="row"> -->
                 <div class="small-4 columns col-md-2 col-xs-6">
                     <div class="image-wrapper overlay-slide-in-left">
-                        <img src="img/glenn1.png" />
+                        <img src="img/prof4.jpg" />
                         <div class="image-overlay-content">
                             <h4>Glenn Noble</h4>
                             <p class="price">Engineer</p>
@@ -358,7 +358,7 @@
                 </div>
                 <div class="small-4 columns col-md-2 col-xs-6">
                     <div class="image-wrapper overlay-slide-in-left">
-                        <img src="img/donjeta.png" />
+                        <img src="img/prof2.jpg" />
                         <div class="image-overlay-content">
                             <h4>Donjeta Muçaj</h4>
                             <p class="price">Training Coordinator</p>
@@ -630,15 +630,7 @@
                 <div class="row">
                     <div class="col-md-4 footer-section">
                         <div class="footer-description">
-                            <img src="img/logo e bardh logistics.png" alt="">
-                            <p>It is a long established fact that a
-                                <br> reader will be distracted by the readable content of a page when looking at its.</p>
-                            <div class="instructors-media-link">
-                                <a data-toggle="tooltip" data-placement="top" title="" href="https://www.facebook.com/" data-original-title="Go facebook Profile"><i class="fa fa-facebook"></i></a>
-                                <a data-toggle="tooltip" data-placement="top" title="" href="https://twitter.com/" data-original-title="Go twitter Profile"><i class="fa fa-twitter"></i></a>
-                                <a data-toggle="tooltip" data-placement="top" title="" href="https://plus.google.com/" data-original-title="Go Google plus Profile"><i class="fa fa-google-plus"></i></a>
-                                <a data-toggle="tooltip" data-placement="top" title="" href="https://www.linkedin.com/" data-original-title="Go linkedin Profile"><i class="fa fa-linkedin"></i></a>
-                            </div>
+                            <img src="img/logisticplus-white.svg" alt="">
                         </div>
                     </div>
                     <div class="col-md-4 footer-section" id="contact">
@@ -662,27 +654,11 @@
                     </div>
                     <div class="col-md-4 footer-section">
                         <h3>About Us</h3>
-                        <ul class="usefull-link">
-                            <li><a href="#">Latest Courses</a>
-                            </li>
-                            <li><a href="#">Courses Categories</a>
-                            </li>
-                            <li><a href="#">Teachers &#38; Staff</a>
-                            </li>
-                            <li><a href="#">Who We Are</a>
-                            </li>
-                            <li><a href="#">Get In Touch</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="row copyright">
-                    <div class="col-md-12">
-                        <p>Copyright &copy; 2016 Edurex | All Right Reserved | <a href="#">Privacy Policy</a> | <a href="#"> Terms of Use</a>
+                        <p>
+                            Logistics Plus, LLC is a software development and system integration company headquartered in Pristina, Kosovo. Logistics Plus develops custom software and hardware solutions based on a range of platforms and technologies including embedded systems.
                         </p>
                     </div>
                 </div>
-            </div>
             </div>
         </footer>
 
